@@ -1,13 +1,6 @@
 # ABLS-RPMS
 
-Depot RPM lodu projet ABLS, en mode createrepo.
-
-## Perimetre
-
-Les sources RPM sont les suivantes:
-
-- /home/sebastien/ABLS-LIBS/build
-- /home/sebastien/ABLS-SATELLITE-LIBS/build
+Depot RPM du projet ABLS-HABITAT.
 
 ## Arborescence
 
@@ -16,24 +9,22 @@ Les sources RPM sont les suivantes:
 - repo/noarch
 - keys
 - scripts
-- incoming
 - published
 
 ## Workflow
 
 1. Executer scripts/bootstrap-repo.sh
 2. Exporter la clef publique GPG dans keys/RPM-GPG-KEY-ABLS
-3. Executer scripts/update.sh
+3. Executer ./update.sh
 
-Mode par defaut (`scripts/update.sh`):
+Mode par defaut (`./update.sh`):
 
-- Collecte incrementale: les RPM deja presents dans `repo/*` sont conserves.
+- Les RPM sont deposes directement dans `repo/*`.
 - Publication in-place vers `published/`.
 
-Mode reset explicite (`scripts/update.sh clean`):
+Mode reset explicite (`./update.sh clean`):
 
-- Suppression des RPM existants dans `repo/*` avant recollecte.
-- Nettoyage des RPM publies avant republication.
+- Nettoyage des RPM publies avant republication complete.
 
 Verification finale:
 

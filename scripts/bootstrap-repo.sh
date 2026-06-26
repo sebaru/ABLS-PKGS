@@ -25,7 +25,6 @@ mkdir -p \
   "$BASE_DIR/repo/noarch" \
   "$BASE_DIR/keys" \
   "$BASE_DIR/scripts" \
-  "$BASE_DIR/incoming" \
   "$BASE_DIR/published"
 
 echo "OK: ABLS-RPMS structure initialized in $BASE_DIR"
