@@ -5,8 +5,9 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 ARCHES=("x86_64" "aarch64" "noarch")
 PUBLIC_DIR="$BASE_DIR/public"
-KEY_FILE="$PUBLIC_DIR/keys/RPM-GPG-KEY-ABLS"
-KEY_SUM="$PUBLIC_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
+RPM_DIR="$PUBLIC_DIR/rpms"
+KEY_FILE="$RPM_DIR/keys/RPM-GPG-KEY-ABLS"
+KEY_SUM="$RPM_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
 PUBLISHED_REPO_FILE="$PUBLIC_DIR/abls-rpms.repo"
 
 fail() {
@@ -25,7 +26,7 @@ actual_sum="$(sha256sum "$KEY_FILE" | awk '{print $1}')"
 gpg --show-keys --fingerprint "$KEY_FILE" >/dev/null
 
 for arch in "${ARCHES[@]}"; do
-  dir="$PUBLIC_DIR/$arch"
+  dir="$RPM_DIR/$arch"
   [[ -d "$dir" ]] || continue
 
   rpm_count="$(find "$dir" -maxdepth 1 -type f -name '*.rpm' | wc -l)"
@@ -38,11 +39,11 @@ done
 # - --disablerepo='*' disables every repo configured on the host, so we avoid
 #   mixing with system repos and only test THIS local ABLS repo path.
 # - --repofrompath defines a temporary repo named "abls-rpms" pointing to
-#   public/x86_64 via file://.
+#   public/rpms/x86_64 via file://.
 # - --enablerepo='abls-rpms' enables only that temporary repo for makecache.
 # This confirms dnf can read repo metadata in a real client flow.
 if command -v dnf >/dev/null 2>&1 && [[ -f "$PUBLISHED_REPO_FILE" ]]; then
-  dnf -q --disablerepo='*' --repofrompath="abls-rpms,file://$PUBLIC_DIR/x86_64" --enablerepo='abls-rpms' makecache >/dev/null || true
+  dnf -q --disablerepo='*' --repofrompath="abls-rpms,file://$RPM_DIR/x86_64" --enablerepo='abls-rpms' makecache >/dev/null || true
 fi
 
 echo "OK: repository checks completed"

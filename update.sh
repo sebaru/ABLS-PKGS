@@ -13,15 +13,17 @@ elif [[ -n "${1:-}" ]]; then
 fi
 
 if [[ "$CLEAN_MODE" -eq 1 ]]; then
-	"$SCRIPT_DIR/publish.sh" --clean
+	"$SCRIPT_DIR/update-rpm.sh" --clean
+	"$SCRIPT_DIR/update-deb.sh" --clean
 else
-	"$SCRIPT_DIR/publish.sh"
+	"$SCRIPT_DIR/update-rpm.sh"
+	"$SCRIPT_DIR/update-deb.sh"
 fi
 "$SCRIPT_DIR/verify-repo.sh"
-git add *.rpm
+git add public/
 
 if [[ "$CLEAN_MODE" -eq 1 ]]; then
-	echo "OK: update completed (clean + publish + verify)"
+	echo "OK: update completed (clean + publish rpm/deb + verify rpm)"
 else
-	echo "OK: update completed (publish + verify)"
+	echo "OK: update completed (publish rpm/deb + verify rpm)"
 fi

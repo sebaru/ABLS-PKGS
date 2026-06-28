@@ -1,0 +1,15 @@
+Origin: ABLS
+Label: ABLS Debian Repository
+Suite: bookworm
+Codename: bookworm
+Architectures: amd64 arm64 armhf
+Components: main
+Description: ABLS Debian packages (bookworm)
+
+Origin: ABLS
+Label: ABLS Debian Repository
+Suite: trixie
+Codename: trixie
+Architectures: amd64 arm64 armhf
+Components: main
+Description: ABLS Debian packages (trixie)

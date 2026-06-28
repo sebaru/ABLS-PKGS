@@ -1,7 +1,7 @@
 [abls-rpms]
 name=ABLS RPM Repository
-baseurl=https://rpms.abls-habitat.fr/$basearch
+baseurl=https://pkgs.abls-habitat.fr/rpms/$basearch
 enabled=1
 gpgcheck=1
-repo_gpgcheck=0
-gpgkey=https://rpms.abls-habitat.fr/keys/RPM-GPG-KEY-ABLS
+repo_gpgcheck=1
+gpgkey=https://pkgs.abls-habitat.fr/rpms/keys/RPM-GPG-KEY-ABLS

@@ -4,6 +4,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 PUBLIC_DIR="$BASE_DIR/public"
+RPM_DIR="$PUBLIC_DIR/rpms"
 ARCHES=("x86_64" "aarch64" "noarch")
 CLEAN_MODE=0
 
@@ -32,10 +33,12 @@ else
   exit 1
 fi
 
-mkdir -p "$PUBLIC_DIR" "$PUBLIC_DIR/keys"
+GPG_KEY_ID="6C86F2C11305554A61A2221512671FDB87025D1B"
+
+mkdir -p "$RPM_DIR" "$RPM_DIR/keys"
 
 for arch in "${ARCHES[@]}"; do
-  dst="$PUBLIC_DIR/$arch"
+  dst="$RPM_DIR/$arch"
   mkdir -p "$dst"
 
   if [[ "$CLEAN_MODE" -eq 1 ]]; then
@@ -45,22 +48,16 @@ for arch in "${ARCHES[@]}"; do
 
   # Keep metadata aligned with what is effectively exposed.
   "$CREATEREPO_CMD" --update "$dst" >/dev/null
+
+  repomd="$dst/repodata/repomd.xml"
+  if [[ -f "$repomd" && -n "${GPG_KEY_ID:-}" ]]; then
+    gpg --batch --yes --detach-sign --armor --local-user "$GPG_KEY_ID" \
+      --output "$repomd.asc" "$repomd"
+  fi
 done
 
-if [[ -f "$PUBLIC_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
-  sha256sum "$PUBLIC_DIR/keys/RPM-GPG-KEY-ABLS" | awk '{print $1 "  keys/RPM-GPG-KEY-ABLS"}' > "$PUBLIC_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
-fi
-
-if [[ ! -f "$PUBLIC_DIR/abls-rpms.repo" ]]; then
-  cat > "$PUBLIC_DIR/abls-rpms.repo" <<'EOF'
-[abls-rpms]
-name=ABLS RPM Repository
-baseurl=https://rpms.abls-habitat.fr/$basearch
-enabled=1
-gpgcheck=1
-repo_gpgcheck=0
-gpgkey=https://rpms.abls-habitat.fr/keys/RPM-GPG-KEY-ABLS
-EOF
+if [[ -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
+  sha256sum "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" | awk '{print $1 "  keys/RPM-GPG-KEY-ABLS"}' > "$RPM_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
 fi
 
 if [[ "$CLEAN_MODE" -eq 1 ]]; then

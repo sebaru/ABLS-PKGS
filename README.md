@@ -7,6 +7,7 @@ Depot RPM du projet ABLS-HABITAT.
 - public/x86_64
 - public/aarch64
 - public/noarch
+- public/deb
 - public/keys
 - scripts
 
@@ -28,6 +29,27 @@ Mode reset explicite (`./update.sh clean`):
 Verification finale:
 
 - `scripts/verify-repo.sh`
+
+## Publication DEB/APT
+
+Le meme domaine peut servir RPM et APT, avec des metadonnees separees.
+
+Arborescence DEB geree par `reprepro`:
+
+- `public/deb/conf`
+- `public/deb/dists`
+- `public/deb/pool`
+- `deb-packages/<suite>/` (zone de depot des `.deb` a publier)
+
+Workflow DEB:
+
+1. Deposer les `.deb` dans `deb-packages/bookworm/` ou `deb-packages/trixie/`
+2. Executer `./update.sh` (ou `./scripts/publish-deb.sh`)
+
+Notes:
+
+- Si `ABLS_GPG_KEYID` est defini, `publish-deb.sh` configure la signature des metadata Release/InRelease.
+- Sans `ABLS_GPG_KEYID`, le depot est publie sans signature metadata.
 
 ## Configuration client
 
