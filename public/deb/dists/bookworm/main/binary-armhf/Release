@@ -1,0 +1,6 @@
+Archive: bookworm
+Component: main
+Origin: ABLS
+Label: ABLS Debian Repository
+Architecture: armhf
+Description: ABLS Debian packages (bookworm)

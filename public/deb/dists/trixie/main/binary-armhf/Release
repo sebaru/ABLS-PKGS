@@ -1,0 +1,6 @@
+Archive: trixie
+Component: main
+Origin: ABLS
+Label: ABLS Debian Repository
+Architecture: armhf
+Description: ABLS Debian packages (trixie)

@@ -1,0 +1,34 @@
+Package: abls-libs
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, libmosquitto1
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-libs/abls-libs_0.4_amd64.deb
+Size: 29356
+SHA512: 3682b15bcec0a6c7a24bf82030fe979e6c8a25cdeec5f90bb1f2271b535109096e6f77688348ca46fc7fc2d0306ceaabf8c1a747068a8c433a7030204c6283f2
+SHA256: 3bfdc553112f440abff9470ba74ee5178ef81c20d712caf4ba9ad48013c112b0
+SHA1: 18adfa66ef07ed59f593b63b39e7082a42f3ad10
+MD5sum: 2135c91d6a36e7eef9ddb356c1078669
+Description: Abls Habitat shared logging library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.4
+Installed-Size: 229
+
+Package: abls-libs-dev
+Architecture: amd64
+Depends: abls-libs, libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.4_amd64.deb
+Size: 3452
+SHA512: f7cf76610d09533275081a7457991e41fc41f138adfb0a79c87916c3deeb384bee4a5fcfdd7ff4a3c77349558c26b5074800f293152471aabb16cafa3be80d24
+SHA256: db02b7421c86f0c2351b03f788a39ea6236d6979479108b11b456022432ff2d3
+SHA1: bd5024898a368e947102156a992aa1af9c9d98bc
+MD5sum: 73e1d55588e6424521298ea2f31e7363
+Description: Abls Habitat shared logging library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.4
+Installed-Size: 34
+

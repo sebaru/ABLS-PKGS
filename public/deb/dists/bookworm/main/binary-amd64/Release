@@ -1,0 +1,6 @@
+Archive: bookworm
+Component: main
+Origin: ABLS
+Label: ABLS Debian Repository
+Architecture: amd64
+Description: ABLS Debian packages (bookworm)
