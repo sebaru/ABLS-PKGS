@@ -1,3 +1,37 @@
+Package: abls-agent-libs
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, abls-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.1_amd64.deb
+Size: 33710
+SHA512: b2c4f0d0e0fe09aa6d9c6462106abeb4c72f131b4bafd272bb67fc8509dfafa04fc81c0d324f0fec47052c1c353b4120956e33b19a9a10bdcc4013c2e0012685
+SHA256: 9c379a03a70182d85bd0dab106f4f78029f1e8700152cb325f691e54b953d3af
+SHA1: 7e70783d614bff0e2c3797708835c85bb4b93c17
+MD5sum: 050575ab4f0a0929fcbe1e4d7439ab35
+Description: Abls Habitat reusable satellite lifecycle library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.1
+Installed-Size: 264
+
+Package: abls-agent-libs-dev
+Architecture: amd64
+Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, abls-libs-dev
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.1_amd64.deb
+Size: 3434
+SHA512: 753e38fc3c1a158e6ddaf149c3498e2fd6bc52f6a188230a3d6db48d0b178b1a281d8e9a11d3314560d2c0527abfb95cc06415231ca5eaf8e81be120f376ccce
+SHA256: 85b4f318e51a24ee6e6150f462382cba5595dddeb5e282af69af83047bb4bacd
+SHA1: d820c9123291a794b244ff5a3274dc096d2a93d5
+MD5sum: 7adffd99aa51defa10ba8fce4c2deaab
+Description: Abls Habitat reusable satellite lifecycle library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.1
+Installed-Size: 36
+
 Package: abls-libs
 Architecture: amd64
 Depends: libglib2.0-0, libjson-glib-1.0-0, libmosquitto1
