@@ -1,3 +1,54 @@
+Package: abls-agent-libs
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, libcurl4, abls-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.2_amd64.deb
+Size: 48150
+SHA512: d79376572a78d1c2db4dd03e9a216a7be889e9efadbd22b3e324a97975f397f980f7da30a5bacf0d1a1e509ddd5cabe1acba87f8a82ae0b073b8fafa1a56b4ac
+SHA256: 90857a0119c7e171961d4eeb5a68ece6735bde968dc37fb141f501a299fc3c49
+SHA1: e7d0df7dc02569dfbf2e149d5b7df72e17eaeab5
+MD5sum: b7d9f9f923fdd1c753c92b06071fa342
+Description: Abls Habitat reusable satellite lifecycle library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.2
+Installed-Size: 344
+
+Package: abls-agent-libs-dev
+Architecture: amd64
+Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, libcurl4-openssl-dev, abls-libs-dev
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.2_amd64.deb
+Size: 3486
+SHA512: 3e63d8650f2d69283f0d14bdd37f63db037391dc871c5576a945057e5dd75897cf633c600e936653dd2e13c0541b5c25deff92ba3b089a08ce09c43a5a5a7a7d
+SHA256: e3600326f886f00cdb9566bf514c1022496d402a1df1017de1823e602b41cd8d
+SHA1: 55da04e418df6b5d142915bcecbefcd6b766705b
+MD5sum: f158cf972bd8d4dc53aa80ffafc921fa
+Description: Abls Habitat reusable satellite lifecycle library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.2
+Installed-Size: 36
+
+Package: abls-agent-phidget
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, libphidget22, abls-libs, abls-agent-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-phidget/abls-agent-phidget_0.1_amd64.deb
+Size: 24478
+SHA512: 38b0c3ad3eecee9d2eba573024fb9c0e45c0f85989d64b8361ee79e3d387bd562412562915cc6841db71878bfef464ec5cdf8efc0c0078dc2e7a7d05f3efd19c
+SHA256: 23ee5d14d571d777b3bb6394440a76c438c8b8bfdd9241185bfe999536e12192
+SHA1: f662d0b8e2f9b036550a1667a6ab4f2033dea2ce
+MD5sum: b049dfd90c1c50874cd8e32405afc44a
+Description: Abls Habitat Phidget runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.1
+Installed-Size: 71
+
 Package: abls-libs
 Architecture: amd64
 Depends: libglib2.0-0, libjson-glib-1.0-0, libmosquitto1
