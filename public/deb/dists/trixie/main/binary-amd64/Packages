@@ -37,16 +37,16 @@ Architecture: amd64
 Depends: libglib2.0-0, libjson-glib-1.0-0, libphidget22, abls-libs, abls-agent-libs
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-phidget/abls-agent-phidget_0.2_amd64.deb
-Size: 24092
-SHA512: 4124a0d51cfd4d0acb5a44a448eeadc6fd33539b1cc17ce2346327a61c859cfb62f0288181701859487716b215fc473aab9a91cf19c7a5e225dcaa2cf758925b
-SHA256: 57a5975bb5511af6ad707e7396bae727386404b28ae4acffb5fb95020155a3a0
-SHA1: cda5247e7998177249af7de12f3ae1b51b9355fe
-MD5sum: ca52524e738be2b542621165725fb8b1
+Filename: pool/main/a/abls-agent-phidget/abls-agent-phidget_0.4_amd64.deb
+Size: 24050
+SHA512: 413abb6663b362d274ed7f7b24c4b65bc674a955c3621475dc4bca434f8ac1a2ef5b0f3eaa79f02803083d40e7f503f58be28d53bf9d760e8d88fce096519ab8
+SHA256: 71acb5978fb479df80511b96e6d4f2373a983174b2a51b6023da3ffd9a12f044
+SHA1: accbb6466426526c83f45fd471b9f062da845698
+MD5sum: 6f4aff32375e9f06d60471518653ef8d
 Description: Abls Habitat Phidget runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.2
+Version: 0.4
 Installed-Size: 71
 
 Package: abls-libs
