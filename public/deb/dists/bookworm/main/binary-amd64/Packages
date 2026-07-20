@@ -3,33 +3,33 @@ Architecture: amd64
 Depends: libglib2.0-0, libjson-glib-1.0-0, libcurl4, abls-libs
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.4_amd64.deb
-Size: 50588
-SHA512: f9a4ed6a8824741d778fd5e1b594c06b9824936d2541320b537322cbae44dfd892beda55dd32107c70c645dd5a7b97788078960c44ddaf3ef3cd5b04d3bb547c
-SHA256: 9404b12f3bc74d80362485e24929e47f242176b6fefe2693cb76e301b8ddfe46
-SHA1: 7ab402f6e3de407cd5454418565d305fa3bf5362
-MD5sum: aef53dbbd6fdc2e987c3d227904e17a9
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.5_amd64.deb
+Size: 50034
+SHA512: e7ae3a33e3264713b1fe513ac2af3c6720e3ea6e4194031d0c1c41fd85ac40fac6fafae32b97dd00467e048ea6a648c27d2b14000b9e7a1c58023defdf4ea454
+SHA256: a4f09397557529a82a0356ed652dba9e01e7a5e7e8b67a5fe8ae465ca83c29dc
+SHA1: 93daf71d70302309dfc809c83e4ea97a421c23cd
+MD5sum: 7bd5d6e67b37fce6e95ba3f80d35ecec
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.4
-Installed-Size: 354
+Version: 0.5
+Installed-Size: 352
 
 Package: abls-agent-libs-dev
 Architecture: amd64
 Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, libcurl4-openssl-dev, abls-libs-dev
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.4_amd64.deb
-Size: 3622
-SHA512: e7e1ed93a6891941bf59f3440f17b2412b419bb3bdbee6973c0ebfd9d9045215805eb4f1abbaf16fb29f30782e7b951d2aaba359d24ea8cf03245c5b6525e9c5
-SHA256: 0019370880384ee8ab82cb7fbe477f974a63c478f9ab15f3d9e38f62eb86c458
-SHA1: ad6c5a41ba3bf18e4242b384d53884fc42ca238b
-MD5sum: 9f48cdfa831e36ec9ab55bfbba836c4b
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.5_amd64.deb
+Size: 3652
+SHA512: 80bad226c9d601d91387a6bbc817824822101ed3c36d6f49c90c6b3336cfde56a43b3108a31bcf0d1d5198a8af3276f1445f48e1b44ea77dec3f30aa8f9993c6
+SHA256: dc6a2b199a7d4ad10e460282bdddbf13ebfed831b596139d0a5181bb29cc6222
+SHA1: db07e47f7d2235552900b585a0ed0d126945e624
+MD5sum: 584c48b9542171560326208582086ca1
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.4
+Version: 0.5
 Installed-Size: 37
 
 Package: abls-agent-phidget
