@@ -5,6 +5,7 @@ Codename: bookworm
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
+SignWith: 6C86F2C11305554A61A2221512671FDB87025D1B
 
 Origin: ABLS
 Label: ABLS Debian Repository
@@ -13,3 +14,4 @@ Codename: trixie
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (trixie)
+SignWith: 6C86F2C11305554A61A2221512671FDB87025D1B
