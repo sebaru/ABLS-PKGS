@@ -4,8 +4,10 @@ set -euo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 ARCHES=("x86_64" "aarch64" "noarch")
+DEB_SUITES=("bookworm" "trixie")
 PUBLIC_DIR="$BASE_DIR/public"
 RPM_DIR="$PUBLIC_DIR/rpms"
+DEB_DIR="$PUBLIC_DIR/deb"
 KEY_FILE="$RPM_DIR/keys/RPM-GPG-KEY-ABLS"
 KEY_SUM="$RPM_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
 PUBLISHED_REPO_FILE="$PUBLIC_DIR/abls-rpms.repo"
@@ -32,6 +34,17 @@ for arch in "${ARCHES[@]}"; do
   rpm_count="$(find "$dir" -maxdepth 1 -type f -name '*.rpm' | wc -l)"
   if [[ "$rpm_count" -gt 0 ]]; then
     [[ -f "$dir/repodata/repomd.xml" ]] || fail "missing repodata for $arch"
+  fi
+done
+
+for suite in "${DEB_SUITES[@]}"; do
+  dist_dir="$DEB_DIR/dists/$suite"
+  [[ -d "$dist_dir" ]] || continue
+
+  [[ -f "$dist_dir/Release" ]] || fail "missing DEB Release for $suite"
+
+  if [[ ! -f "$dist_dir/InRelease" && ! -f "$dist_dir/Release.gpg" ]]; then
+    fail "missing DEB signature metadata for $suite (expected InRelease or Release.gpg)"
   fi
 done
 

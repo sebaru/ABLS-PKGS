@@ -30,6 +30,13 @@ require_cmd() {
 }
 
 require_cmd reprepro
+require_cmd gpg
+
+if ! gpg --batch --list-secret-keys "$GPG_KEY_ID" >/dev/null 2>&1; then
+  echo "ERROR: missing GPG secret key for SignWith: $GPG_KEY_ID" >&2
+  echo "Import the private key on this publisher host before running update-deb.sh" >&2
+  exit 1
+fi
 
 mkdir -p "$PUBLIC_DIR" "$DEB_BASE" "$DROP_DIR" "$CONF_DIR"
 
@@ -55,6 +62,41 @@ SignWith: $GPG_KEY_ID
 EOF
 fi
 
+tmp_dist="$(mktemp)"
+awk -v key="$GPG_KEY_ID" '
+BEGIN {
+  saw_sign = 0
+}
+{
+  if ($0 ~ /^SignWith:[[:space:]]+/) {
+    saw_sign = 1
+  }
+
+  if ($0 == "") {
+    if (NR > 1 && saw_sign == 0) {
+      print "SignWith: " key
+    }
+    print ""
+    saw_sign = 0
+    next
+  }
+
+  print
+}
+END {
+  if (NR > 0 && saw_sign == 0) {
+    print "SignWith: " key
+  }
+}
+' "$DIST_FILE" > "$tmp_dist"
+
+if ! cmp -s "$DIST_FILE" "$tmp_dist"; then
+  mv "$tmp_dist" "$DIST_FILE"
+  echo "WARN: normalized $DIST_FILE to add missing SignWith entries" >&2
+else
+  rm -f "$tmp_dist"
+fi
+
 for suite in "${SUITES[@]}"; do
   mkdir -p "$DROP_DIR/$suite"
 done
@@ -77,6 +119,9 @@ done
 
 if [[ "$published" -eq 0 ]]; then
   echo "WARN: no .deb files found in $DROP_DIR/<suite>/"
-else
-  echo "OK: deb repository updated in $DEB_BASE"
 fi
+
+# Always export to refresh dists metadata and signatures, even when packages are unchanged.
+reprepro -b "$DEB_BASE" export
+
+echo "OK: deb repository updated in $DEB_BASE (signed metadata exported)"
