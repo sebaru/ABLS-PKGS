@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Thu, 13 Aug 2026 08:53:27 UTC
+Date: Thu, 13 Aug 2026 09:03:47 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmp9hgcACgkQEmcf24cC
-XRvXrA//ZfmetCc4WgV+dkt+tWHUSZFl89b/vcITpz9kULg3TQjWV5GBUO0KoJNf
-/mRcV4hKd/tFN2dcoZafZDcQqsZU4r51kYxG9uVW5oFTEJyy+/aJw/O5haQe1qQz
-ODC5e+JQqWdCdC04gxPTYF/oreaFQw1J6xqJ9kzdAh8YNM9xkUYhT/iF6PYm2t7l
-Q88qB9bP2Rkxmn8vSEHC4dX9NXzDIa4hW4g6nx7/xdNMSOJQmOCsXfbTmbIWZHmp
-s4pjXoRkmzCjJI0gPsLdhLAPfxM3nXT8T0C/6KWpTp1DB6hI47e59Gr+h+utp6Mw
-qnA1KN9DMVnHJViB/P9exGaw20xVOU/JM3fl0yX4qRzBSFLGV/EIOC8ce4+iQpY1
-aeDhBi0BfrBDS+lv+Me8PNix+qKv311YBcHZhX9BBLmygeeYHKqVtbE3Lc2+qquG
-LZEJJzSyaOQSU823oRftaI2WiGCk3B1idgDwFcx2gDHQzOIJc/7CqsFinlrQJmkA
-oXYjnWssvEbZFArggTM2pbVoCNU9Ieh3JeqhmjUw4gLtn6LdDFsd6WefeM/FSXTG
-CDOhnEKPOyoN3pwEqwumL5HrHY47V3hfi2STlSJNUj6oLnCeIBVUrbVjw8+l/VIx
-YDpaK3dKPSjQklKxdyQ/9op0CWfBSuu5sA2xrgCNZobSpur9DEo=
-=c65J
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmp9iHMACgkQEmcf24cC
+XRuENw//UPDLDyA+E53GG7u+34S35EG0nlgkwVAGRV3Jj7YJOH77nFjXLMHrcoLt
+s4kSrIK5Wl+bt5VLqSHZBYBdWKMr3+vx6xY9QNOe+0wyCFBfsB9+NRWk51itel2b
+1YrSzAh0DL6GERa7fpIWnw5cL4bBEy4DOJEbQtjM5Br0ky7j6/d/IZWlUR9teS1Y
+bfNFIy8LJNTOA+gK1HxWVAubTEf7JMX1CpONZDCFpw3A5un8y8Clrx7xRqNN2ixe
+33IhbyqHNCwchExdKYxUNxqj9blX5+pkajjnBVfSaYrtuePewrjjkO+SO4g5iMH3
+QptmhMLQyhZdh8eVPaOF0ncK8eno4gD/63pWlSR1QTAbyXaabgZlG4zDuLt/2aF2
+P9ttBnnb28slDUmb4jD5CzQZKeLauUrdaxxWIvICHjMZaqBWiv/6xd/HuaJMSICG
+wcO1tWijGKYHlVR8rSdAwv5kem1X71xF0bGQUQlF6D+q2tH7TYKaINdAGo4UI2fG
+Y/3GcmWZP0YCbqtTezwQjyUfp7huOMT1mzjjK4ZCRR/hVKen9GHeOZYL3WhVHhBe
+yvadG9uUDZ3piP1mMAgwDC3297r/fvnwX+qaZFvEMOfTnI7H9dt2It/NsPNS+5Pn
+8qvF7SvzGyU4P9JoEi/v/yNejdZeaxsppqhyB58yfHdQGoQ6w98=
+=b9uD
 -----END PGP SIGNATURE-----

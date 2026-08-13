@@ -50,6 +50,10 @@ done
 
 if [[ -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
   sha256sum "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" | awk '{print $1 "  keys/RPM-GPG-KEY-ABLS"}' > "$RPM_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
+
+  # Publish APT keyring artifacts derived from the same ABLS public key.
+  cp -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" "$PUBLIC_DIR/abls-archive-keyring.asc"
+  gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$RPM_DIR/keys/RPM-GPG-KEY-ABLS"
 fi
 
 echo "OK: repository updated in-place in public/rpms/"

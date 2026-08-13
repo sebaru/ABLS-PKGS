@@ -54,6 +54,14 @@ Exemple de fichier repo client: `public/abls-rpms.repo`
 - gpgcheck=1: verification de signature des paquets
 - repo_gpgcheck=1: verification de signature des metadonnees RPM activee
 
+Exemple APT (Debian/RaspiOS):
+
+- `sudo install -d -m 0755 /etc/apt/keyrings`
+- `sudo wget -O /etc/apt/keyrings/abls-archive-keyring.gpg https://pkgs.abls-habitat.fr/abls-archive-keyring.gpg`
+- `sudo chmod 0644 /etc/apt/keyrings/abls-archive-keyring.gpg`
+- `sudo wget -O /etc/apt/sources.list.d/abls-deb.sources https://pkgs.abls-habitat.fr/abls-deb.sources`
+- `sudo apt update`
+
 ## Publication
 
 Le repertoire `public/` est la cible exposee en HTTP.

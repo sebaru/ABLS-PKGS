@@ -11,6 +11,8 @@ DEB_DIR="$PUBLIC_DIR/deb"
 KEY_FILE="$RPM_DIR/keys/RPM-GPG-KEY-ABLS"
 KEY_SUM="$RPM_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
 PUBLISHED_REPO_FILE="$PUBLIC_DIR/abls-rpms.repo"
+APT_KEYRING="$PUBLIC_DIR/abls-archive-keyring.gpg"
+APT_KEY_ASC="$PUBLIC_DIR/abls-archive-keyring.asc"
 
 fail() {
   echo "ERROR: $1" >&2
@@ -26,6 +28,10 @@ actual_sum="$(sha256sum "$KEY_FILE" | awk '{print $1}')"
 [[ "$expected_sum" == "$actual_sum" ]] || fail "checksum mismatch for $KEY_FILE"
 
 gpg --show-keys --fingerprint "$KEY_FILE" >/dev/null
+
+[[ -f "$APT_KEYRING" ]] || fail "missing APT keyring file: $APT_KEYRING"
+[[ -f "$APT_KEY_ASC" ]] || fail "missing APT key file: $APT_KEY_ASC"
+gpg --show-keys --fingerprint "$APT_KEY_ASC" >/dev/null
 
 for arch in "${ARCHES[@]}"; do
   dir="$RPM_DIR/$arch"
