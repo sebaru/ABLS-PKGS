@@ -21,6 +21,10 @@ require_cmd() {
   fi
 }
 
+require_cmd gpg
+require_cmd rpmsign
+require_cmd rpm
+
 if command -v createrepo_c >/dev/null 2>&1; then
   CREATEREPO_CMD="createrepo_c"
 elif command -v createrepo >/dev/null 2>&1; then
@@ -32,11 +36,44 @@ fi
 
 GPG_KEY_ID="6C86F2C11305554A61A2221512671FDB87025D1B"
 
+if ! gpg --batch --list-secret-keys "$GPG_KEY_ID" >/dev/null 2>&1; then
+  echo "ERROR: missing GPG secret key for RPM signing: $GPG_KEY_ID" >&2
+  echo "Import the private key on this publisher host before running update-rpm.sh" >&2
+  exit 1
+fi
+
+sign_rpm_if_needed() {
+  local rpm_file="$1"
+  local checksig_output
+
+  checksig_output="$(rpm --checksig "$rpm_file" 2>&1 || true)"
+  if grep -Eqi 'signatures?[^[:alpha:]]+OK|pgp[^[:alpha:]]+OK|rsa[^[:alpha:]]+OK|ecdsa[^[:alpha:]]+OK|eddsa[^[:alpha:]]+OK' <<<"$checksig_output"; then
+    return 0
+  fi
+
+  rpmsign --key-id "$GPG_KEY_ID" --addsign "$rpm_file" >/dev/null
+
+  checksig_output="$(rpm --checksig "$rpm_file" 2>&1 || true)"
+  if ! grep -Eqi 'signatures?[^[:alpha:]]+OK|pgp[^[:alpha:]]+OK|rsa[^[:alpha:]]+OK|ecdsa[^[:alpha:]]+OK|eddsa[^[:alpha:]]+OK' <<<"$checksig_output"; then
+    echo "ERROR: unsigned or invalid signature for $rpm_file" >&2
+    echo "rpm --checksig output: $checksig_output" >&2
+    exit 1
+  fi
+}
+
 mkdir -p "$RPM_DIR" "$RPM_DIR/keys"
 
 for arch in "${ARCHES[@]}"; do
   dst="$RPM_DIR/$arch"
   mkdir -p "$dst"
+
+  shopt -s nullglob
+  rpms=("$dst"/*.rpm)
+  shopt -u nullglob
+
+  for rpm_file in "${rpms[@]}"; do
+    sign_rpm_if_needed "$rpm_file"
+  done
 
   # Keep metadata aligned with what is effectively exposed.
   "$CREATEREPO_CMD" --update "$dst" >/dev/null

@@ -104,7 +104,7 @@ done
 published=0
 for suite in "${SUITES[@]}"; do
   shopt -s nullglob
-  debs=("$DROP_DIR/$suite"/*.deb)
+  debs=("$DROP_DIR/$suite"/*.deb "$DROP_DIR/$suite"/*/*.deb)
   shopt -u nullglob
 
   if [[ ${#debs[@]} -eq 0 ]]; then
