@@ -30,6 +30,22 @@ Maintainer: sebastien.lefevre@abls-habitat.fr
 Version: 0.9
 Installed-Size: 44
 
+Package: abls-agent-server
+Architecture: armhf
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.36.0), libjson-glib-1.0-0 (>= 1.5.2)
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-server/abls-agent-server_0.3_armhf.deb
+Size: 86080
+SHA256: d898fb47e3929b2f3218a68451163122c68f28818009c078f5fcadbc4795a72f
+SHA1: fb31ebf73746c3e39d04e3bc873a9263e7b7c142
+MD5sum: 1a06acfeb48efafdb0ddbcacf6a88634
+Description: Abls Habitat Server runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.3
+Installed-Size: 331
+
 Package: abls-libs
 Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libmosquitto1, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.32.0), libjson-glib-1.0-0 (>= 1.5.2), libmosquitto1 (>= 1.2), libuuid1 (>= 2.16)
