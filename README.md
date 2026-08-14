@@ -35,6 +35,7 @@ Mode par defaut (`./update.sh`):
 - Signature automatique des paquets RPM et de `repodata/repomd.xml` pour chaque architecture
 - Mise a jour automatique du checksum `public/rpms/keys/RPM-GPG-KEY-ABLS.sha256`
 - Mise a jour et signature des metadonnees APT dans `public/deb/*`
+- Republie aussi la clef APT partagee `public/abls-archive-keyring.{asc,gpg}`
 
 Verification finale:
 
@@ -63,6 +64,7 @@ Workflow DEB:
 Notes:
 
 - Le depot DEB est signe avec la meme clef GPG que le depot RPM.
+- Les artefacts `public/abls-archive-keyring.asc` et `public/abls-archive-keyring.gpg` sont regeneres depuis cette clef partagée.
 - Pour Raspberry Pi 64-bit, utiliser `arm64`.
 - Pour Raspberry Pi OS 32-bit, utiliser `armhf`.
 - `update.sh` publie RPM et DEB dans la meme passe.
