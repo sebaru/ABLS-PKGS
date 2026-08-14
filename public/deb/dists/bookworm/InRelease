@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Fri, 14 Aug 2026 08:28:47 UTC
+Date: Fri, 14 Aug 2026 11:20:39 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmp+0b8ACgkQEmcf24cC
-XRvyDQ/+KLl3tdoXRmcQc3iRl+FG79uc+4Df5h7YH4fJJPzwjWV3HcvoXPuK/VP7
-utFA3Tijt6X/Bdk1qPIIp6vMZbAcB5SYdSIR15i8gJVSTUveu+jh0g7BuaM5zNSq
-HxLZvvL6aVAZmZI12OSu1DN8zb0JV//DjHUxPpTmgLk7ss4yL/XbpRePdse3gVIu
-nhoCcRkHWiVRZZZd1wh0M0EV+cYscRZpLWS66Ovsclvmz9Pw5vW5R6sWWEjOyQSQ
-3vpOt26vMDn1lDkX9llCaL8QWjzAxj0kDhgh+BDsXx14DIHMUU62l2fP3Isr7Bnp
-QW4w65hZj2PAa+CAZeE5ikeUAoLqgFpxH2Lwf8intRYWZQLSyWlRMHnd7osiv11x
-geJSR3vHpJA4LNaCD1Yd0H3YZKRqJQmTAGK4Yu20qRmnBqMqVdh7TwPXp+c+ruMC
-TzB5PfKJXDRSFNJq0pntD9I9IVqfEdH64uHpHdkH6mRh76fwjnPWfGfrII2CmXdS
-rGsmW1/lNkkUBGNpE7WOoLEabojOitsrjp2Ld4/5h3qFN7xrKRmpxA4p30bq+MZF
-L7QgrP7IgtWYmx//PEcxw3Xraoh9HalQjE7MFDYxsPTrnm22gR1+PEUZhofli60u
-ulXrAABV5uetmxpnhGP+rJ7BCefpljq8FBmJCuWNSrS+fWHa2PQ=
-=grTJ
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmp++gcACgkQEmcf24cC
+XRvw6A/8CQVKokYGKBL1AdT1DjyfSt9g/e69x/Fea/BpJ6ZxN/q74oXP+2aaN5n/
+yCJKtZ+IpY62gwoXRHbkT/Ah0Db4VfuB76e8QwBxiKfW7V74NXwz1qeC39AeoWXO
+WQSewFPofFaDYbpGLxM8FXvzlux5qxQNg4HjbTVzYdBrj3FXNjJi3ka7L9kYklVi
+rX4Wye1hRp8UIJKNy2uMiZ+cxfiuCiV9uaPTPnYjU66zVvVJE126L1L++n7Br+Cx
+HTbKkni7ilXyw/4X6siYdB4Ya6fVJtsWoxMgVN8WKL5t52M7LNwdw9xBnavhByEV
+yZBi3UlTLngkMTr9ZX8Dx7Shglhj1V7/lSdjx/macOt3C05v7eWtuUcOZ7T7xqHa
+jpW7b+Uv0CnfdxHww6T5dDe0cb3RV5B3KJToep4upENkn0Lowe2UGAfoZ9PJ7Tv/
+gT2tzL1cqXlXSA43+uH7q7aOH+lT8+EVjfdXs7HYJ5Oo1+BYUezMaofC5r87X/8+
+ZfiBZ+HqqBDdfpNfaLMBcYEcgx0+fTqSyXeqKJSpCVdUSb4W9KG//bWq212tVsLW
+EwApl+sYSjjyDefZhNrRHdjXD37R5mfcNUStLMgPFSToU24RTc10kZbqSHiVJ1ZV
+3v7IGrJkicH/K7z6zAOL/9RGPlPOFghltxaY3hzrtlPbV0W6lUk=
+=rRue
 -----END PGP SIGNATURE-----
