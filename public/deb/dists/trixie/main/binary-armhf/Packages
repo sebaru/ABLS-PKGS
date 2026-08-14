@@ -1,0 +1,32 @@
+Package: abls-libs
+Architecture: armhf
+Depends: libglib2.0-0, libjson-glib-1.0-0, libmosquitto1, libc6 (>= 2.34), libglib2.0-0 (>= 2.31.8), libjson-glib-1.0-0 (>= 1.5.2), libmosquitto1 (>= 1.2), libuuid1 (>= 2.16)
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-libs/abls-libs_0.14~trixie_armhf.deb
+Size: 41816
+SHA256: d4cc5383942b73fe49e9b52b0253b9f939ee0c4b9201a21c0cf5604d777edfb8
+SHA1: b851f82ac58abe72b11faac2ec6983f3d5057028
+MD5sum: b63b880fd892c14799abc22273311e0c
+Description: Abls Habitat shared logging library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.14~trixie
+Installed-Size: 399
+
+Package: abls-libs-dev
+Architecture: armhf
+Depends: abls-libs (= 0.14~trixie), libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.14~trixie_armhf.deb
+Size: 5140
+SHA256: 52dc21cfccba405d12e56b796d8e5dc858f6e81ce49d48fa0da7e9c176e74eba
+SHA1: 32c513433f8c1b95fc6eba30cf53af86a023c211
+MD5sum: 0082ce1ec87128566c2405cffc5fbc3b
+Description: Abls Habitat shared logging library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.14~trixie
+Installed-Size: 51
+
