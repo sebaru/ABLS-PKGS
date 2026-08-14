@@ -2,7 +2,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Fri, 14 Aug 2026 11:27:54 UTC
+Date: Fri, 14 Aug 2026 13:59:41 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -13,8 +13,8 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  854660996a2e171fb3a2551935f70256 142 main/binary-arm64/Release
- 55dc44048ba9520b8f597a12b39d198e 1254 main/binary-armhf/Packages
- 0c95bb257f782592f062f2a0b487b84d 584 main/binary-armhf/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
  60bdf4ca8d306df48eb3567cbfc1234c 142 main/binary-armhf/Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
@@ -23,8 +23,8 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  eadc81464c1db2f2137b648abd445ec0d2c8f8ab 142 main/binary-arm64/Release
- 7e25011fd3eaacccae6a7aa40214ee3267d4252f 1254 main/binary-armhf/Packages
- 23ebef88e363a42844bdd8735f8c7f6863952b15 584 main/binary-armhf/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
  4b8b6a8d3d81f6e781d6ab94bc56938901b393fa 142 main/binary-armhf/Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
@@ -33,6 +33,6 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
  77abc9893ca99a8f3b3ea12ddd813bf955f35bf852594bf276b9e860c4c56ad6 142 main/binary-arm64/Release
- d53e5d8eedeb0900d8ca5b47410444d9753f26ccb3a66ac82bcb0fa2bb1a4125 1254 main/binary-armhf/Packages
- d94197f6efa9278ebcf790f4790111373acb0aafbc4602e71062d90c875e4dd9 584 main/binary-armhf/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
  22e58930fe51577d006996f91f42876502036364af996848f61335453c1cf00a 142 main/binary-armhf/Release
