@@ -124,4 +124,18 @@ fi
 # Always export to refresh dists metadata and signatures, even when packages are unchanged.
 reprepro -b "$DEB_BASE" export
 
+if [[ ! -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
+  gpg --batch --yes --armor --export "$GPG_KEY_ID" > "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
+fi
+
+if [[ ! -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
+  echo "ERROR: missing public key export for APT keyring generation: $BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" >&2
+  exit 1
+fi
+
+if [[ -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
+  cp -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" "$PUBLIC_DIR/abls-archive-keyring.asc"
+  gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
+fi
+
 echo "OK: deb repository updated in $DEB_BASE (signed metadata exported)"

@@ -85,6 +85,15 @@ for arch in "${ARCHES[@]}"; do
   fi
 done
 
+if [[ ! -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
+  gpg --batch --yes --armor --export "$GPG_KEY_ID" > "$RPM_DIR/keys/RPM-GPG-KEY-ABLS"
+fi
+
+if [[ ! -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
+  echo "ERROR: missing public key export for RPM signing: $RPM_DIR/keys/RPM-GPG-KEY-ABLS" >&2
+  exit 1
+fi
+
 if [[ -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
   sha256sum "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" | awk '{print $1 "  keys/RPM-GPG-KEY-ABLS"}' > "$RPM_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
 
