@@ -30,10 +30,11 @@ Le script detecte automatiquement le type d'hote:
 
 Mode par defaut (`./update.sh`):
 
-- Sur un hote RPM: execute uniquement `scripts/update-rpm.sh`
+- execute `scripts/update-rpm.sh` puis `scripts/update-deb.sh`
 - Mise a jour in-place des metadonnees dans `public/rpms/*`
 - Signature automatique des paquets RPM et de `repodata/repomd.xml` pour chaque architecture
 - Mise a jour automatique du checksum `public/rpms/keys/RPM-GPG-KEY-ABLS.sha256`
+- Mise a jour et signature des metadonnees APT dans `public/deb/*`
 
 Verification finale:
 
@@ -56,9 +57,6 @@ Workflow DEB:
 1. Deposer les `.deb` dans `deb-packages/bookworm/` ou `deb-packages/trixie/`
 2. Executer `./update.sh` (ou `./scripts/update-deb.sh`)
 
-Mode par defaut (`./update.sh`) sur un hote Debian:
-
-- execute uniquement `scripts/update-deb.sh`
 - importe les `.deb` depuis `deb-packages/<suite>/` et `deb-packages/<suite>/<arch>/`
 - regenere `public/deb/dists/*` et les signatures APT associees
 
@@ -67,7 +65,7 @@ Notes:
 - Le depot DEB est signe avec la meme clef GPG que le depot RPM.
 - Pour Raspberry Pi 64-bit, utiliser `arm64`.
 - Pour Raspberry Pi OS 32-bit, utiliser `armhf`.
-- `update.sh` ne publie qu'un seul type de depot a la fois, selon la famille de l'hote.
+- `update.sh` publie RPM et DEB dans la meme passe.
 
 Exemples de build puis publication:
 
