@@ -102,4 +102,12 @@ if [[ -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
   gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$RPM_DIR/keys/RPM-GPG-KEY-ABLS"
 fi
 
+git add \
+	public/rpms/ \
+	public/abls-archive-keyring.asc \
+	public/abls-archive-keyring.gpg
+
 echo "OK: repository updated in-place in public/rpms/"
+
+"$SCRIPT_DIR/verify-repo.sh"
+echo "OK: RPM update completed"

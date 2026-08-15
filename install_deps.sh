@@ -79,14 +79,14 @@ install_deb_deps() {
       "${SUDO[@]}" install -d -m 0755 /etc/apt/keyrings
       "${SUDO[@]}" install -m 0644 public/abls-archive-keyring.gpg /etc/apt/keyrings/abls-archive-keyring.gpg
     else
-      echo "ERROR: missing public/abls-archive-keyring.gpg; run update.sh first" >&2
+      echo "ERROR: missing public/abls-archive-keyring.gpg; run scripts/update-rpm.sh or scripts/update-deb.sh first" >&2
       return 1
     fi
 
     if [[ -f public/abls-deb.sources ]]; then
       "${SUDO[@]}" install -m 0644 public/abls-deb.sources /etc/apt/sources.list.d/abls-deb.sources
     else
-      echo "ERROR: missing public/abls-deb.sources; run update.sh first" >&2
+      echo "ERROR: missing public/abls-deb.sources; run scripts/update-deb.sh first" >&2
       return 1
     fi
 

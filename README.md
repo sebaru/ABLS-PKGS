@@ -26,16 +26,15 @@ Le script detecte automatiquement le type d'hote:
 
 1. Deposer les RPM directement dans `public/rpms/$arch` (`x86_64`, `aarch64`, `noarch`)
 2. Exporter automatiquement la clef publique GPG dans `public/rpms/keys/RPM-GPG-KEY-ABLS` depuis la clef locale si elle manque
-3. Executer `./update.sh`
+3. Executer `./scripts/update-rpm.sh`
 
-Mode par defaut (`./update.sh`):
+Workflow RPM (`./scripts/update-rpm.sh`):
 
-- execute `scripts/update-rpm.sh` puis `scripts/update-deb.sh`
 - Mise a jour in-place des metadonnees dans `public/rpms/*`
 - Signature automatique des paquets RPM et de `repodata/repomd.xml` pour chaque architecture
 - Mise a jour automatique du checksum `public/rpms/keys/RPM-GPG-KEY-ABLS.sha256`
-- Mise a jour et signature des metadonnees APT dans `public/deb/*`
 - Republie aussi la clef APT partagee `public/abls-archive-keyring.{asc,gpg}`
+- Ajoute automatiquement les artefacts RPM et keyrings au prochain commit Git
 
 Verification finale:
 
@@ -56,10 +55,11 @@ Arborescence DEB geree par `reprepro`:
 Workflow DEB:
 
 1. Deposer les `.deb` dans `deb-packages/bookworm/` ou `deb-packages/trixie/`
-2. Executer `./update.sh` (ou `./scripts/update-deb.sh`)
+2. Executer `./scripts/update-deb.sh`
 
 - importe les `.deb` depuis `deb-packages/<suite>/` et `deb-packages/<suite>/<arch>/`
 - regenere `public/deb/dists/*` et les signatures APT associees
+- ajoute automatiquement les artefacts DEB et keyrings au prochain commit Git
 
 Notes:
 
@@ -67,7 +67,7 @@ Notes:
 - Les artefacts `public/abls-archive-keyring.asc` et `public/abls-archive-keyring.gpg` sont regeneres depuis cette clef partagée, y compris si l'export public doit etre reconstruit.
 - Pour Raspberry Pi 64-bit, utiliser `arm64`.
 - Pour Raspberry Pi OS 32-bit, utiliser `armhf`.
-- `update.sh` publie RPM et DEB dans la meme passe.
+- `scripts/update-deb.sh` peut republier les keyrings APT partages si la clef publique RPM existe deja.
 
 Exemples de build puis publication:
 
@@ -97,4 +97,4 @@ Le repertoire `public/` est la cible exposee en HTTP.
 
 Le script `update-rpm.sh` met a jour `public/rpms/` en place.
 Le script `update-deb.sh` met a jour `public/deb/` a partir de `deb-packages/`.
-En mode normal, `update.sh` choisit automatiquement le bon sous-flux selon l'hote.
+Chaque script met aussi en stage les artefacts generes et relance `scripts/verify-repo.sh`.

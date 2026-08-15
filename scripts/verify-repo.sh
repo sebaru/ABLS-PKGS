@@ -13,6 +13,7 @@ KEY_SUM="$RPM_DIR/keys/RPM-GPG-KEY-ABLS.sha256"
 PUBLISHED_REPO_FILE="$PUBLIC_DIR/abls-rpms.repo"
 APT_KEYRING="$PUBLIC_DIR/abls-archive-keyring.gpg"
 APT_KEY_ASC="$PUBLIC_DIR/abls-archive-keyring.asc"
+VERIFY_RPM_REPO_ID="abls-rpms-verify"
 
 fail() {
   echo "ERROR: $1" >&2
@@ -57,12 +58,12 @@ done
 # Optional client-side sanity check with dnf:
 # - --disablerepo='*' disables every repo configured on the host, so we avoid
 #   mixing with system repos and only test THIS local ABLS repo path.
-# - --repofrompath defines a temporary repo named "abls-rpms" pointing to
+# - --repofrompath defines a temporary repo named "abls-rpms-verify" pointing to
 #   public/rpms/x86_64 via file://.
-# - --enablerepo='abls-rpms' enables only that temporary repo for makecache.
+# - --enablerepo='abls-rpms-verify' enables only that temporary repo for makecache.
 # This confirms dnf can read repo metadata in a real client flow.
 if command -v dnf >/dev/null 2>&1 && [[ -f "$PUBLISHED_REPO_FILE" ]]; then
-  dnf -q --disablerepo='*' --repofrompath="abls-rpms,file://$RPM_DIR/x86_64" --enablerepo='abls-rpms' makecache >/dev/null || true
+  dnf -q --disablerepo='*' --repofrompath="$VERIFY_RPM_REPO_ID,file://$RPM_DIR/x86_64" --enablerepo="$VERIFY_RPM_REPO_ID" makecache >/dev/null || true
 fi
 
 echo "OK: repository checks completed"

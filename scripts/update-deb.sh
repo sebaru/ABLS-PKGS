@@ -138,4 +138,12 @@ if [[ -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
   gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
 fi
 
+git add \
+  public/deb/ \
+  public/abls-archive-keyring.asc \
+  public/abls-archive-keyring.gpg
+
 echo "OK: deb repository updated in $DEB_BASE (signed metadata exported)"
+
+"$SCRIPT_DIR/verify-repo.sh"
+echo "OK: DEB update completed"
