@@ -10,7 +10,6 @@ CONF_DIR="$DEB_BASE/conf"
 DIST_FILE="$CONF_DIR/distributions"
 SUITES=("bookworm" "trixie")
 ARCHES="amd64 arm64 armhf"
-GPG_KEY_ID="6C86F2C11305554A61A2221512671FDB87025D1B"
 
 if [[ -n "${1:-}" ]]; then
   echo "ERROR: unknown argument: $1" >&2
@@ -30,13 +29,6 @@ require_cmd() {
 }
 
 require_cmd reprepro
-require_cmd gpg
-
-if ! gpg --batch --list-secret-keys "$GPG_KEY_ID" >/dev/null 2>&1; then
-  echo "ERROR: missing GPG secret key for SignWith: $GPG_KEY_ID" >&2
-  echo "Import the private key on this publisher host before running update-deb.sh" >&2
-  exit 1
-fi
 
 mkdir -p "$PUBLIC_DIR" "$DEB_BASE" "$DROP_DIR" "$CONF_DIR"
 
@@ -49,7 +41,6 @@ Codename: bookworm
 Architectures: $ARCHES
 Components: main
 Description: ABLS Debian packages (bookworm)
-SignWith: $GPG_KEY_ID
 
 Origin: ABLS
 Label: ABLS Debian Repository
@@ -58,41 +49,15 @@ Codename: trixie
 Architectures: $ARCHES
 Components: main
 Description: ABLS Debian packages (trixie)
-SignWith: $GPG_KEY_ID
 EOF
 fi
 
+# Import hosts may not have the private key; strip SignWith lines before export.
 tmp_dist="$(mktemp)"
-awk -v key="$GPG_KEY_ID" '
-BEGIN {
-  saw_sign = 0
-}
-{
-  if ($0 ~ /^SignWith:[[:space:]]+/) {
-    saw_sign = 1
-  }
-
-  if ($0 == "") {
-    if (NR > 1 && saw_sign == 0) {
-      print "SignWith: " key
-    }
-    print ""
-    saw_sign = 0
-    next
-  }
-
-  print
-}
-END {
-  if (NR > 0 && saw_sign == 0) {
-    print "SignWith: " key
-  }
-}
-' "$DIST_FILE" > "$tmp_dist"
-
+awk '!/^SignWith:[[:space:]]+/' "$DIST_FILE" > "$tmp_dist"
 if ! cmp -s "$DIST_FILE" "$tmp_dist"; then
   mv "$tmp_dist" "$DIST_FILE"
-  echo "WARN: normalized $DIST_FILE to add missing SignWith entries" >&2
+  echo "WARN: normalized $DIST_FILE to remove SignWith entries for import-only mode" >&2
 else
   rm -f "$tmp_dist"
 fi
@@ -121,29 +86,9 @@ if [[ "$published" -eq 0 ]]; then
   echo "WARN: no .deb files found in $DROP_DIR/<suite>/"
 fi
 
-# Always export to refresh dists metadata and signatures, even when packages are unchanged.
+# Export indexes after import; metadata may be unsigned in import-only mode.
 reprepro -b "$DEB_BASE" export
 
-if [[ ! -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
-  gpg --batch --yes --armor --export "$GPG_KEY_ID" > "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
-fi
+git add public/deb/
 
-if [[ ! -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
-  echo "ERROR: missing public key export for APT keyring generation: $BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" >&2
-  exit 1
-fi
-
-if [[ -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
-  cp -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" "$PUBLIC_DIR/abls-archive-keyring.asc"
-  gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
-fi
-
-git add \
-  public/deb/ \
-  public/abls-archive-keyring.asc \
-  public/abls-archive-keyring.gpg
-
-echo "OK: deb repository updated in $DEB_BASE (signed metadata exported)"
-
-"$SCRIPT_DIR/verify-repo.sh"
-echo "OK: DEB update completed"
+echo "OK: deb repository imported in $DEB_BASE (unsigned metadata export)"
