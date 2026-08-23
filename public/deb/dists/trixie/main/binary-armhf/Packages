@@ -5,9 +5,9 @@ Priority: optional
 Section: devel
 Filename: pool/main/a/abls-libs/abls-libs_0.14~trixie_armhf.deb
 Size: 42318
-SHA256: 60990165a6128520dbec79cdf7c2fbf333d3733a817f6683e8edfcf935ecff40
-SHA1: 97c76e657daf0bb59e3e0f2ec28f12379dae0001
-MD5sum: 0b26fa6d457b6d72a532396132ac3d3c
+SHA256: ac788140a333c9cda7cf0a158c6add77f2cff08cc43308f58469e4de0bd59e4f
+SHA1: b0df2ebd106c5da4c8e6c250368cdd44ab071e77
+MD5sum: acbf69e48c092af05d165eb6a73b93fd
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
@@ -20,10 +20,10 @@ Depends: abls-libs (= 0.14~trixie), libglib2.0-dev, libjson-glib-dev, libmosquit
 Priority: optional
 Section: devel
 Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.14~trixie_armhf.deb
-Size: 5144
-SHA256: 80972905dc9caadea3e76d1e39e9590d21719645004ddae48cbd4650d0ada859
-SHA1: 96897efab225fc826c674d4070cf5fcd6caa8427
-MD5sum: caa3c2df6b945448ff947a8f0d6cb17b
+Size: 5146
+SHA256: 9cc455faa045914e444cdfc738d359fb714276d357aa2385bc6f9ceb1812d9d9
+SHA1: fb926aa5277cfbfd7d55fad4068b5c845efd6da5
+MD5sum: 5c88f748d3288bfc2d128bef706753a1
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
