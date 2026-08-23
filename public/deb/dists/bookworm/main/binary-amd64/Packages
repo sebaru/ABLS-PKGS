@@ -1,0 +1,136 @@
+Package: abls-agent-libs
+Architecture: amd64
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libcurl4t64 | libcurl4, abls-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.10_amd64.deb
+Size: 45570
+SHA512: c483b0cdfa90ebb261398bcf89a01bcf5940601fa680e281503dee091b9fb6187713396a4ac9375d64ccdaaba568ebd0bff5951537daa8b4d480bb5cb3187cd0
+SHA256: 25ef856edea0c436fc4e19b8e7df491b7613a2d74b1c6e1911d5fb3eb68ba9d3
+SHA1: e275000637667e7984edcb535a55988de4f3e47d
+MD5sum: 8a8f70007a64a844e337aaad739028ae
+Description: Abls Habitat reusable satellite lifecycle library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.10
+Installed-Size: 349
+
+Package: abls-agent-libs-dev
+Architecture: amd64
+Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, libcurl4-openssl-dev, abls-libs-dev
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.10_amd64.deb
+Size: 3992
+SHA512: aa2acbe83502efa16374a6a1ca6a34ceb9a91f06ff30d84391b5474c3bd6c465dbcb97f91bd66a57ff782f9fc0265192435ab7f728a6b84654a6a9978b42924a
+SHA256: 91b4d547915f6fdbfdbbba8be016beb13fbe13a2468ab935815ac43d276264b6
+SHA1: fb4962b6dccf60c7a8e4fc54d0dc9f6e4986e6de
+MD5sum: 9590d13ec76f701db5109126d822fa48
+Description: Abls Habitat reusable satellite lifecycle library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.10
+Installed-Size: 40
+
+Package: abls-agent-phidget
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, libphidget22, abls-libs, abls-agent-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-phidget/abls-agent-phidget_0.6_amd64.deb
+Size: 24286
+SHA512: 9f7f4fc94acb8ee2997dc168a56605fefe9b158f8526115c64512576e98591122925e304cea3f5b64ee314d2b1d1a64ea2b43b2786df511753e54f34b7ee5763
+SHA256: 5e32da696aa128975d3e898d49dd707f939eb330ce0fc0ba7f22e1ee8385d8c0
+SHA1: 3f14c3eb667920b30b66d775d28631b127461496
+MD5sum: 52699e52e3d1b15e67c1d1659332e6de
+Description: Abls Habitat Phidget runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.6
+Installed-Size: 71
+
+Package: abls-agent-server
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-server/abls-agent-server_0.3_amd64.deb
+Size: 128520
+SHA512: cacbb4a88afa16835fd57b4ec65aca1b883ffbd0516f8d96dd845e71682f193da52cf3e5516abd99443912b816ebe695b0d4b1dcb6b333a805d87ab55cc9e9ed
+SHA256: 50cda8615e38320c1599620c2887aa6eb6c4c24fc994cae31c47bee5489651ec
+SHA1: 4f028e2bc4fca01d2c12f159bbb1b2d499e072f1
+MD5sum: 493a8df3ae280d793ff340f11327b1e7
+Description: Abls Habitat Server runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.3
+Installed-Size: 354
+
+Package: abls-agent-shelly
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-shelly/abls-agent-shelly_0.1_amd64.deb
+Size: 19004
+SHA512: 51fe715dd9f12688d43660bd508edc31841f1388eac4a6eed2e36015ccba6122abe9a7777b65daa3e1cdd2beca36763362464bf2ffb6126cc9c16d029fdf9333
+SHA256: ea64c40e1d9695130bdb8d4bc85c5897f4587b7c04ce6e14f177efc1dcb6d615
+SHA1: dff66e6a1174e4e90394a900ad9c8cde3bf75cc4
+MD5sum: f99b21b375702c86b47c5a28e60fd3e1
+Description: Abls Habitat Shelly runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.1
+Installed-Size: 73
+
+Package: abls-agent-teleinfoedf
+Architecture: amd64
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-teleinfoedf/abls-agent-teleinfoedf_0.0_amd64.deb
+Size: 19622
+SHA512: a715d2a4093be71c66d8809de2a14d0014effe7e1fdbcd0a6bef19c5e4d6dfc01c5355e4321ea37da6250793034b56fe8ab2f74a756ad9ccbec30b7f6bf67901
+SHA256: a1bbfce3686cda68fa05710374c29ca5829d55f6ecda397ad754d1a6aa4e2ebe
+SHA1: b967915007312f3107c30a051aee1ae851e944c8
+MD5sum: 347cc0171f1f1bcdae105808229aa633
+Description: Abls Habitat TeleinfoEDF runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.0
+Installed-Size: 73
+
+Package: abls-libs
+Architecture: amd64
+Depends: libglib2.0-0, libjson-glib-1.0-0, libmosquitto1
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-libs/abls-libs_0.14~bookworm_amd64.deb
+Size: 63212
+SHA512: 103b4d73057bb4fa175a4458844c448697d04d058129ce029a7dff8d9ee40c537b341f7ab1776d26f351c55bd99d04e9329abb5633d9084bdd6e1aa54ddde226
+SHA256: 325137c8e2e080432d216dca63cc4712b0be7be6a2b5eb1375c669721779c8e5
+SHA1: 72374efbbd5ade3b985890507114c0afd02876ca
+MD5sum: fe6f603f1620e9d6ca6ad6745f654266
+Description: Abls Habitat shared logging library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.14~bookworm
+Installed-Size: 461
+
+Package: abls-libs-dev
+Architecture: amd64
+Depends: abls-libs (= 0.14~bookworm), libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.14~bookworm_amd64.deb
+Size: 5160
+SHA512: 6bd35b156c82fbd124f4b9c48890d3eea35d6ef01a00016a80ec118d3f5d831b5ece133481dc8d34763c1d3245853fa76994da761a1709d4b91ed7915ed27c21
+SHA256: d611a19d700ec434edf02dbdfd9b4dc7c22e5343dc622d448fda48e924423f35
+SHA1: 0f5f50d9a17f61b66a024e83176be7f94b26cf0c
+MD5sum: b90e6d06c09f7c5c2a734029c32ca331
+Description: Abls Habitat shared logging library
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.14~bookworm
+Installed-Size: 47
+
