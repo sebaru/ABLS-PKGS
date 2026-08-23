@@ -49,19 +49,17 @@ Arborescence DEB geree par `reprepro`:
 - `public/deb/conf`
 - `public/deb/dists`
 - `public/deb/pool`
-- `deb-packages/<suite>/` (zone de depot des `.deb` a publier)
-- `deb-packages/<suite>/<arch>/` (recommande pour publier plusieurs architectures)
+- `deb-incoming/<suite>/` (zone de depot des `.deb` a publier)
+- `deb-incoming/<suite>/<arch>/` (recommande pour publier plusieurs architectures)
 
-Workflow DEB (2 machines):
+Workflow DEB:
 
-1. Deposer les `.deb` dans `deb-packages/bookworm/` ou `deb-packages/trixie/`
-2. Sur l'hote d'import (ex: armhf), executer `./scripts/update-deb-import.sh`
+1. Deposer les `.deb` dans `deb-incoming/bookworm/` ou `deb-incoming/trixie/`
+2. Executer `./scripts/update-deb.sh`
 3. Commit/push des changements `public/deb/`
-4. Sur l'hote de signature (ex: amd64), pull puis executer `./scripts/update-deb-sign.sh`
 
-- `scripts/update-deb-import.sh` importe les `.deb` depuis `deb-packages/<suite>/` et `deb-packages/<suite>/<arch>/` puis regenere les index APT non signes.
-- `scripts/update-deb-sign.sh` applique `SignWith`, regenere les metadonnees signees et republie les keyrings APT partages.
-- Seuls les artefacts publies (`public/deb/*`, keyrings) sont versionnes; la zone `deb-packages/` reste une zone de transit.
+- `scripts/update-deb.sh` importe les `.deb` depuis `deb-incoming/<suite>/` et `deb-incoming/<suite>/<arch>/`, regenere les metadonnees APT signees et republie les keyrings APT partages.
+- Seuls les artefacts publies (`public/deb/*`, keyrings) sont versionnes; la zone `deb-incoming/` reste une zone de transit.
 
 Notes:
 
@@ -69,17 +67,14 @@ Notes:
 - Les artefacts `public/abls-archive-keyring.asc` et `public/abls-archive-keyring.gpg` sont regeneres pendant l'etape de signature depuis cette clef partagee.
 - Pour Raspberry Pi 64-bit, utiliser `arm64`.
 - Pour Raspberry Pi OS 32-bit, utiliser `armhf`.
-- `scripts/update-deb-import.sh` ne requiert pas la clef privee GPG.
-- `scripts/update-deb-sign.sh` requiert la clef privee GPG sur l'hote de signature.
+- `scripts/update-deb.sh` requiert la clef privee GPG sur l'hote de publication.
 
 Exemples de build puis publication:
 
 - Executer `./build_apt.sh --dist bookworm` sur une machine `arm64`
 - Executer `./build_apt.sh --dist bookworm` sur une machine `armhf`
-- Copier ensuite les `.deb` dans `deb-packages/bookworm/arm64/` ou `deb-packages/bookworm/armhf/`
-- Sur la machine d'import: `./scripts/update-deb-import.sh`
-- Commit/push des changements `public/deb/`
-- Sur la machine de signature: pull puis `./scripts/update-deb-sign.sh`
+- Copier ensuite les `.deb` dans `deb-incoming/bookworm/arm64/` ou `deb-incoming/bookworm/armhf/`
+- Executer `./scripts/update-deb.sh`
 
 ## Configuration client
 
@@ -101,6 +96,5 @@ Exemple APT (Debian/RaspiOS):
 Le repertoire `public/` est la cible exposee en HTTP.
 
 Le script `update-rpm.sh` met a jour `public/rpms/` en place.
-Le script `update-deb-import.sh` met a jour `public/deb/` a partir de `deb-packages/` sans signature.
-Le script `update-deb-sign.sh` signe les metadonnees DEB et met aussi a jour les keyrings APT publics.
-`update-rpm.sh` et `update-deb-sign.sh` relancent `scripts/verify-repo.sh`.
+Le script `update-deb.sh` met a jour `public/deb/` a partir de `deb-incoming/`, signe les metadonnees DEB et met aussi a jour les keyrings APT publics.
+`update-rpm.sh` et `update-deb.sh` relancent `scripts/verify-repo.sh`.

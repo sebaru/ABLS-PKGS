@@ -5,8 +5,10 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 PUBLIC_DIR="$BASE_DIR/public"
 DEB_BASE="$PUBLIC_DIR/deb"
+DROP_DIR="$BASE_DIR/deb-incoming"
 CONF_DIR="$DEB_BASE/conf"
 DIST_FILE="$CONF_DIR/distributions"
+SUITES=("bookworm" "trixie")
 ARCHES="amd64 arm64 armhf"
 GPG_KEY_ID="6C86F2C11305554A61A2221512671FDB87025D1B"
 
@@ -32,11 +34,11 @@ require_cmd gpg
 
 if ! gpg --batch --list-secret-keys "$GPG_KEY_ID" >/dev/null 2>&1; then
   echo "ERROR: missing GPG secret key for SignWith: $GPG_KEY_ID" >&2
-  echo "Import the private key on this signer host before running update-deb-sign.sh" >&2
+  echo "Import the private key on this publisher host before running update-deb.sh" >&2
   exit 1
 fi
 
-mkdir -p "$PUBLIC_DIR" "$DEB_BASE" "$CONF_DIR"
+mkdir -p "$PUBLIC_DIR" "$DEB_BASE" "$DROP_DIR" "$CONF_DIR"
 
 if [[ ! -f "$DIST_FILE" ]]; then
   cat > "$DIST_FILE" <<EOF
@@ -60,7 +62,6 @@ SignWith: $GPG_KEY_ID
 EOF
 fi
 
-# Ensure each distribution stanza includes SignWith for signed export.
 tmp_dist="$(mktemp)"
 awk -v key="$GPG_KEY_ID" '
 BEGIN {
@@ -96,10 +97,33 @@ else
   rm -f "$tmp_dist"
 fi
 
-# Signed export of DEB metadata.
+for suite in "${SUITES[@]}"; do
+  mkdir -p "$DROP_DIR/$suite"
+done
+
+published=0
+for suite in "${SUITES[@]}"; do
+  shopt -s nullglob
+  debs=("$DROP_DIR/$suite"/*.deb "$DROP_DIR/$suite"/*/*.deb)
+  shopt -u nullglob
+
+  if [[ ${#debs[@]} -eq 0 ]]; then
+    continue
+  fi
+
+  for deb in "${debs[@]}"; do
+    reprepro -b "$DEB_BASE" includedeb "$suite" "$deb"
+    published=1
+  done
+done
+
+if [[ "$published" -eq 0 ]]; then
+  echo "WARN: no .deb files found in $DROP_DIR/<suite>/"
+fi
+
+# Always export to refresh dists metadata and signatures, even when packages are unchanged.
 reprepro -b "$DEB_BASE" export
 
-mkdir -p "$BASE_DIR/public/rpms/keys"
 if [[ ! -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
   gpg --batch --yes --armor --export "$GPG_KEY_ID" > "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
 fi
@@ -109,15 +133,17 @@ if [[ ! -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
   exit 1
 fi
 
-cp -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" "$PUBLIC_DIR/abls-archive-keyring.asc"
-gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
+if [[ -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
+  cp -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" "$PUBLIC_DIR/abls-archive-keyring.asc"
+  gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
+fi
 
 git add \
   public/deb/ \
   public/abls-archive-keyring.asc \
   public/abls-archive-keyring.gpg
 
-echo "OK: deb repository signatures updated in $DEB_BASE"
+echo "OK: deb repository updated in $DEB_BASE (signed metadata exported)"
 
 "$SCRIPT_DIR/verify-repo.sh"
-echo "OK: DEB signing completed"
+echo "OK: DEB update completed"

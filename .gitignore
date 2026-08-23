@@ -1,6 +1,6 @@
 
 public/deb/db/
 
-# Temporary drop zone for multi-host Debian builds.
+# Temporary drop zone for Debian builds.
 # Keep generated publish output in public/deb versioned.
-deb-packages/
+deb-incoming/
