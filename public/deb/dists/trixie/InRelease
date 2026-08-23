@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: trixie
 Codename: trixie
-Date: Sun, 23 Aug 2026 04:45:38 UTC
+Date: Sun, 23 Aug 2026 04:53:38 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (trixie)
@@ -16,8 +16,8 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  6c675d96457deae33a09a7c52fe6b724 138 main/binary-arm64/Release
- 93c470b26bbf5416df9c103ed03a3619 1265 main/binary-armhf/Packages
- edacf4dd673314e3e65a6a6e8514b5fb 586 main/binary-armhf/Packages.gz
+ ec8b5042480b11a6c434b1dad1f73139 2545 main/binary-armhf/Packages
+ c79916dedc5a2b03855342f99861b149 896 main/binary-armhf/Packages.gz
  e6a83cf8668da13848fa85a04cee7b28 138 main/binary-armhf/Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
@@ -26,8 +26,8 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  9088c60f3b3fe964109fc32fbf97b70b80e47294 138 main/binary-arm64/Release
- a1a5c9fc8e768c1561c52819a3694aff174ec57b 1265 main/binary-armhf/Packages
- 042e3dc304326d46c75c804e0a08ce002af50396 586 main/binary-armhf/Packages.gz
+ 0d8b35a47da3b0709fe431ef090c369489333885 2545 main/binary-armhf/Packages
+ e7d8e8006c57c08c8b2eec98859d1db056967f07 896 main/binary-armhf/Packages.gz
  687f3bbd49b1deebc252287c7a741c97191be356 138 main/binary-armhf/Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
@@ -36,22 +36,22 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
  c6805a8b5eb131da3a71503bd014df57944fece8a2bf63f25daf17d090836002 138 main/binary-arm64/Release
- fc190f34114ffce0c7f2422b04b23b1b412428ab79582f56d4e6c74282f5dce2 1265 main/binary-armhf/Packages
- 39027fc9983d8d43812336369e29fd7544df60a6db5e59eb4bd49781c68624c9 586 main/binary-armhf/Packages.gz
+ cc71f21d98abffba2b15f8c697c8ec0a93876b6b0aa72262e3f521b0a769735e 2545 main/binary-armhf/Packages
+ c737a878d08ec2b12dc98e677de62ac08c2b2012a2543ec0d65e181c88af5a57 896 main/binary-armhf/Packages.gz
  cb7baf96fda71f9cabd56196efc10c9a26da419e1bf089013245a2b90fbc9dce 138 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmqKevMACgkQEmcf24cC
-XRsAVQ/6AiwaNgz2bvJnr96AGWiae/fr6T21pymwcUuKL5az835nO5infg+FDZQz
-rRZB8M0P13KqLbvhdHIfhIHuIBIP5cQfvXMr4xduehJet4AsHqYWkUwn+MtXt+hc
-JFGmwRnoheKT4QxGXoXRsy3XmmZKsk3lBgTKSm9CcBrFwxBduPQtIwe91881+o2E
-Winw5WEbckgOyw3Ba9YcNqi8XhpoqsFWPWCZRr6UGoY+SaNqf+U7pW1d/xbc5KdU
-W46EYgM+ipJsDlUjWX9ucQSIRj3rk2dcz/KPSgtXmaesK3k00db0yh2xQRnpW4Us
-OAC5mnBGdFLDVVJIiDlqQM/bBaDEXet4aqVrjRM/NqIkuSVWs+jHKx3yAGg8Wt+Q
-lK87bOVocfC51yLFhvhfwuvTw41p7Pa4gLCAbn/xL/I89PUmrOhFZ8XJj9NlP0N7
-y7kQoHrZyMT23io/PXOatI+dbKg0Ev1R+ThAROOmSHXu1l77X4g/J3QgqCe60CsQ
-d8f+KxJTtRsUOr5eT3m0NPh7Sng8tVlMV8eV2kBWfJuCsfeVXzsVXzKmvlaC2tys
-BIMmMoTjYbxLcpiLuJG8QLNhjHjG/wyw4zzmhUB7JzfiJNig6GWjYIDXynos3eLi
-KjkjAfxbskt3yNmSi95rEjsU1NIqcD1a9gnPXE4NdPBigttPF3c=
-=oB3e
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmqKfNMACgkQEmcf24cC
+XRv1vg//cdwHpCKTZzyifarP7/qfyWhMKpaRtXo5pFjYQW3imNf3bggDCW+bso4W
+Ycl5gYar/z1aCEiuzA8vxEE7ity4DJRNhw1CD1BMQZi9soMb4oq24GW90XE+bG/w
+8A8fdhkiH9wdrPb+ueg/1TXnLT2Bk4jxX5nGqfUvpRF++He5Y8R4ZNB9H6WZeeps
+aPnj6JTV/JGLLHzyICj3klGBOQ/Th+qHapJf7oOJ7Gf/W4vNZhOtZRv6QvMS8wLt
+90DHVKDDDf7Dx3ljBFJGw5EHHn5pag7EN0CCQFHU7K9isTUv7Nl1TmfUC71FPYqa
+HOhf/OSJSKu/jV+8wH77R9fcdK0RlOrLxXAqLnBNEhmLvPGIXdhtljoTw6WV8Irl
+VgycP82QhHo8MmuQ0Khvbr3cmyqa+JBkaOMBa5/2+sEhqdGoQU/mmTn5ZImqPKUO
+GAAG0EKLb6LnaT8Foc9ZKB8aOZC2ae8rEOvW/67A9uZ4yrOIup10yrSIlhWhq28K
+XLqj2gW1XSYo0dJm1r8uOtTYIiMHLIzTAJ1C+uBhTIz3HdzSxdyyrDaPtVoBmNRe
+7nq8DHtRG6scnh9bXZSPaazSDn/4IOwXuOkV5QQJe2ryq6WmsNnXwxcAWUZI8+jv
+UBjwld0674LD0o9Zh5PeggqHERYiwwVQRiEN/KlU7c+3Duqx3iE=
+=UEak
 -----END PGP SIGNATURE-----
