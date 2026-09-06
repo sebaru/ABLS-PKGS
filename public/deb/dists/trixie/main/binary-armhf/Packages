@@ -3,16 +3,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, mpg123, wireplumber, python3-gtts, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-audio/abls-agent-audio_0.3_armhf.deb
-Size: 11492
-SHA512: 0d2e79b184e22111d1848df850154ac0d3f1f1950cafb9be5385c7ea43448f557cf0dd1e8e1b927dfb93e8abb8a5e5381c0d064a6caec492bb7793fb72bfca0a
-SHA256: 362271a06fd0c276556ae42e2ffd49226add9f2e35dd91439be47df88964b9c6
-SHA1: 09d400b91f8d894bad47de3d13b67990abd40eab
-MD5sum: 9f1a4e725902a263f4c3ee2cad00a2ef
+Filename: pool/main/a/abls-agent-audio/abls-agent-audio_0.4_armhf.deb
+Size: 11772
+SHA512: f0a4828fead1ce3efad973f7c9f196aeebb1dd3510ed2ae4e24087f291e2719e4b9a12878655b0f6b7929d8cf681c53ea02021536053716a7f8a05ceda9eed18
+SHA256: f4c058f05eb95df1c75f790af20aaedf857a31093b392573da3d6f2699aae56f
+SHA1: e3c2c9af5e07287ddd238e0060ab9c4c2483a215
+MD5sum: 97d71589081dbb2de65e33a26ef2ee62
 Description: Abls Habitat Audio runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.3
+Version: 0.4
 Installed-Size: 103
 
 Package: abls-agent-libs
