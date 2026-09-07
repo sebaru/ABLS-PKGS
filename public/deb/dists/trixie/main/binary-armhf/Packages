@@ -20,16 +20,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libcurl4t64 | libcurl4, abls-libs, libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libglib2.0-0t64 (>= 2.16.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.13_armhf.deb
-Size: 47658
-SHA512: 7b2a4539713a86fde654ad498a06dc40ed84a0a9001a40ac8a6e0589c18e4a7199901cbffd1d9bd0532a4db9a04bb16dc7a3e25395ae3ce9e0ba1842561517f8
-SHA256: d9cee95bddebe91bed66d105f982f12c909907ffd4e5d1345404ba1f21219bc2
-SHA1: 1f973c866e552fd28210ec86dea61e43d318c9a6
-MD5sum: a42a905f3c78b572cbae5938b0adf1f9
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.14_armhf.deb
+Size: 47666
+SHA512: 41b382262f279c9eccffb4f9d9bbf3c2e2322d6be83ec6fa34a27730cf0e72099d591634f1acc9c17ffd7650d9ec80c2d9e410b20529be7bda60ed55cc9a404c
+SHA256: 1e653566c3863a5d8db2a1df1ee8c1fc2364b1d31b790e3f9a8ffbb461667f0a
+SHA1: d9c16caa4c9d3eccc6ccecd94c51bcf2ca52eef6
+MD5sum: 25362de7443a019c61747f890868940e
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.13
+Version: 0.14
 Installed-Size: 437
 
 Package: abls-agent-libs-dev
@@ -37,16 +37,16 @@ Architecture: armhf
 Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, libcurl4-openssl-dev, abls-libs-dev
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.13_armhf.deb
-Size: 4070
-SHA512: 6d24cca087cc00ef67d5b9ef33249cf0895db7a174c34bbccb53554727b4cec9fecc53ef7e801d875d4729030a57e9c6f65ccea9c916d042c7dcbec5be411847
-SHA256: 96d191c000df273a4b7d82622463e7896713cf5d97b58c0114188e0af5353649
-SHA1: 9029a0fd864fabfc24779187b88d8c435b8d9179
-MD5sum: 9b2c8734f1e21027b02e60c0d65eb9bc
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.14_armhf.deb
+Size: 4074
+SHA512: ad88360746878908fa86e23b28377f558a9736a6297ea95227aab1e1229681c1f84ecdab6d11333b170c067e0dd36711148a306972e0530a90ebe347280c977f
+SHA256: 35aca89856b00a84a78826a1d8ccd3593962d58d99d1fabfd1f647c437563182
+SHA1: 7832bdad32d119475c83f20220b6fc0a4f7f4a97
+MD5sum: c5c6aee198e0c427b31d97fb3099d86f
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.13
+Version: 0.14
 Installed-Size: 44
 
 Package: abls-agent-meteo
