@@ -117,6 +117,23 @@ Maintainer: sebastien.lefevre@abls-habitat.fr
 Version: 0.2
 Installed-Size: 110
 
+Package: abls-agent-ups
+Architecture: armhf
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libupsclient6 | libupsclient4, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libupsclient6t64 (>= 2.8.0)
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-ups/abls-agent-ups_0.3_armhf.deb
+Size: 16202
+SHA512: fa08d26393f2ffb7f1fd55fb31bffbdee90d6ab9b791d26a08b6175bab626141696a7d8c3d9e73ac7651a3aa63b3607c7ab9e944bed1a4ad3ace1999eec44a79
+SHA256: 13a72c0dd5770bfd74cc9506e8f87fb0d4e022d43ae73b3b0a5d11bf1887bff5
+SHA1: 8c552af1d25bb47afffac4835e51d0788cab5852
+MD5sum: 9ee1597e19729193d6ef0d8fe09b2064
+Description: Abls Habitat UPS runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.3
+Installed-Size: 103
+
 Package: abls-libs
 Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libmosquitto1, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.32.0), libjson-glib-1.0-0 (>= 1.5.2), libmosquitto1 (>= 1.2), libuuid1 (>= 2.16)
