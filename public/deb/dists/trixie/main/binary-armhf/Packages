@@ -100,6 +100,23 @@ Maintainer: sebastien.lefevre@abls-habitat.fr
 Version: 0.5
 Installed-Size: 336
 
+Package: abls-agent-teleinfoedf
+Architecture: armhf
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0)
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-teleinfoedf/abls-agent-teleinfoedf_0.1_armhf.deb
+Size: 21536
+SHA512: e58a3acf618ffa2dbe77d912076b1a92ef6b09f8fb1ad2bd9fef523e74c508440cfe9b02105faa49fe56d496bd119ac6b3cdecd6afdd50fad1b5b314e16f9f1f
+SHA256: 4630981c484def5859ce7342561272176529db9d103cd8d789637f07be68aee8
+SHA1: 0008938469add860dc7e24416fd54af46136d937
+MD5sum: c13cbccc967fea98d0093cb932482512
+Description: Abls Habitat TeleinfoEDF runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.1
+Installed-Size: 114
+
 Package: abls-libs
 Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libmosquitto1, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.32.0), libjson-glib-1.0-0 (>= 1.5.2), libmosquitto1 (>= 1.2), libuuid1 (>= 2.16)
