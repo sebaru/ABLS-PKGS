@@ -54,17 +54,17 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-meteo/abls-agent-meteo_0.1_armhf.deb
-Size: 12214
-SHA512: d7d7a7068b82aa5fa9ac34eab33bb6d60050da82886b6deffaed18f90e8ca14851d8ec648fc425b6b037f699e564c74c277b7e0554236ea1f9d1a5174e46f741
-SHA256: 2ad9a4b8b5e9a71055f5c263ca219a37b71c709c18e65d08c67ab0ff2bfafb0b
-SHA1: 218c9226819b89852c2c3a36ad0fdd9730a58f0e
-MD5sum: d9c2261d57d4e70295d0c69e909c9737
+Filename: pool/main/a/abls-agent-meteo/abls-agent-meteo_0.2_armhf.deb
+Size: 12208
+SHA512: f38bc9fb2edd9d7036e112f494c46aaac79bf5b1fd7cd19a9cfcf6d369f03cc712f090bf6571cb98c142c8353995d7af79290f81d10ca433d9f4db9c5e541ea2
+SHA256: db322e885feb5e413ad1b4d69cd2a1a9679543c348773073bd53dfd19961a83c
+SHA1: c3de744ff861da6b96f782f1259777f7f6d960e4
+MD5sum: ab376b60563d982d60b165f3dc15ad7d
 Description: Abls Habitat Meteo runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.1
-Installed-Size: 102
+Version: 0.2
+Installed-Size: 98
 
 Package: abls-agent-modbus
 Architecture: armhf
