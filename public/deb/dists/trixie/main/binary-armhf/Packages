@@ -54,17 +54,17 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-meteo/abls-agent-meteo_0.2_armhf.deb
-Size: 12208
-SHA512: f38bc9fb2edd9d7036e112f494c46aaac79bf5b1fd7cd19a9cfcf6d369f03cc712f090bf6571cb98c142c8353995d7af79290f81d10ca433d9f4db9c5e541ea2
-SHA256: db322e885feb5e413ad1b4d69cd2a1a9679543c348773073bd53dfd19961a83c
-SHA1: c3de744ff861da6b96f782f1259777f7f6d960e4
-MD5sum: ab376b60563d982d60b165f3dc15ad7d
+Filename: pool/main/a/abls-agent-meteo/abls-agent-meteo_0.3_armhf.deb
+Size: 13192
+SHA512: 4b76541b98a54b98813bcaec68e6ae45c7ff1df2fd89286b24b34e7c81f9b10e58b43e630100be3b1a1cdef578eee0fd7b6061f91b17c87940b10329e280a098
+SHA256: 74ed1f167b892b088427e73bf41a0bb911066ca7cdba81eee4c1addb17881193
+SHA1: 29c42c7456263e766d8aa7dda4cbd17fa5dfce4f
+MD5sum: d1ecd43e2e2c401bb475497d1224b56a
 Description: Abls Habitat Meteo runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.2
-Installed-Size: 98
+Version: 0.3
+Installed-Size: 100
 
 Package: abls-agent-modbus
 Architecture: armhf
@@ -99,6 +99,23 @@ Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
 Version: 0.6
 Installed-Size: 332
+
+Package: abls-agent-shelly
+Architecture: armhf
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libjson-glib-1.0-0 (>= 1.5.2)
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-shelly/abls-agent-shelly_0.1_armhf.deb
+Size: 16542
+SHA512: 685e36bc7f3a9b1d58817966092b5aa376123042d2cc4b4d08b73cc088079ca048d269790a730f6500dd7cc22822f117fb93e05c769305d421615ac43984a19c
+SHA256: a266454d046e55e106b1a8cf5169c9242051e99d7d3832df34036069ceff5560
+SHA1: c9bb3fe2170bf0197ae740f6d321c19342a6ec73
+MD5sum: 56308b0d196bb5d096b2c548514d6d0e
+Description: Abls Habitat Shelly runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.1
+Installed-Size: 103
 
 Package: abls-agent-teleinfoedf
 Architecture: armhf
