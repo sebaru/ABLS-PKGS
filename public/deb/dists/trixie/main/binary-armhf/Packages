@@ -83,6 +83,23 @@ Maintainer: sebastien.lefevre@abls-habitat.fr
 Version: 0.1
 Installed-Size: 116
 
+Package: abls-agent-phidget
+Architecture: armhf
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libphidget22, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.28.0), libphidget22
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-phidget/abls-agent-phidget_0.7_armhf.deb
+Size: 21766
+SHA512: 50a0cbdba07eb272c1d19102e073b246e8d33ec04537741df4cb932ce24e5a44c565f12fef5d66d502669ee9a1b4f1afbd36008f01e3f64b074a22e30b2c5065
+SHA256: b530faeed762e3ad3d13578b53f022de9c28903448959f192940e97987e58fb0
+SHA1: ff48095d3bb7865d0d1655e85516ad6d4cc8e773
+MD5sum: f3678890abeca0afa01b4a3473b04ad4
+Description: Abls Habitat Phidget runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.7
+Installed-Size: 117
+
 Package: abls-agent-server
 Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.36.0), libjson-glib-1.0-0 (>= 1.5.2), libsystemd0
