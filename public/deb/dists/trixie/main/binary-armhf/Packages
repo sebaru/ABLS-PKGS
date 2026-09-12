@@ -20,16 +20,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libcurl4t64 | libcurl4, abls-libs, libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libglib2.0-0t64 (>= 2.16.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.18_armhf.deb
-Size: 47752
-SHA512: 4fa3b97999755457ae0326e953bcd6d6efceff1f8c7f69e805de3bbc8a82f68bdfc83ec6ff4a43b66d62f8aadaceba4f2df7a2622a72ac8cd3adec23e9707cc2
-SHA256: 88b33e48d111a0e8f7a1f52199813f3973b8b376cb208b2707481bff4709666b
-SHA1: decc678434be29f7a45bed8a4855b77a8cda0354
-MD5sum: 16c322867b3a89e062aed382f5dbc232
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.19_armhf.deb
+Size: 47760
+SHA512: af1cdf91885fe63b9e484fa41706baf7f73a6422ba42695a9b3e6e993f2b3cfe7042b2ae36e8593994570b7979fc60753605257b7dd0a8941c30a97496a48d93
+SHA256: a43c7b56f24214a66cff717ca311597d57f4ad64d3b5a8ed2d448fa4a6ce78b0
+SHA1: 1f7738275bd6e0d24c6f20958257e295318c6a73
+MD5sum: e2bf94fb0cd78ab9752cda4369317c8f
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.18
+Version: 0.19
 Installed-Size: 436
 
 Package: abls-agent-libs-dev
@@ -37,16 +37,16 @@ Architecture: armhf
 Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, libcurl4-openssl-dev, abls-libs-dev
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.18_armhf.deb
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.19_armhf.deb
 Size: 4034
-SHA512: 74a9ff99fc1234d6e3b61bf36aa7ff84f1b6baf361bca90bd4dd9383bb79e1c67d87846732a8659074756a61a5420f6109a09952496953d0af5df93f2bde1820
-SHA256: e77a0c73ec2b1917d919dd68eb265b8508b23265e93e936b0d77aaabf37fffb8
-SHA1: d18801260719d56a416698b4a3fbd2fa108b85f0
-MD5sum: 1724dfd069e04970c57949cc065a49c5
+SHA512: b1dbcd1f3395fea4fa582ceaef5d1e6b29c1ab2b2f5e349eb12d95e863c547e02c2d53b432b41531503b84cc5bbb37a440c766b4b7b744e61bcaaf8b8e70cfdf
+SHA256: 3b6edd56ed397572f0432d8e33625efd150b29f0bb4ae8d1556775cffcb2d82a
+SHA1: a55bf07fa8e3139b3ef032dd7700ea970c272e01
+MD5sum: f10ce248201594931c7c52f757fbaae1
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.18
+Version: 0.19
 Installed-Size: 44
 
 Package: abls-agent-meteo
@@ -105,16 +105,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.36.0), libjson-glib-1.0-0 (>= 1.5.2), libsystemd0
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-server/abls-agent-server_0.6_armhf.deb
-Size: 86962
-SHA512: 6b19e3a806e3dee3cb176d97acee1e0c6a4f1da5846bc4264180433f03926514648806e0382e9c02b6e90484949e35132f739f9b2eb516cc0169a3c57d7759aa
-SHA256: 20761768b86502ebd56314e8ed63b0192b0f2785b150f36babe4dbdcf018dc0f
-SHA1: 890265ffad3e5f0d12eebf8b19b85acb24906f57
-MD5sum: c3d4488b44a6b263e4568587317b33da
+Filename: pool/main/a/abls-agent-server/abls-agent-server_0.7_armhf.deb
+Size: 86958
+SHA512: 857cb167f574dd9a66fce2fb596c1ed2bc2dd5df8758654fe3f8d9d2b85b1a275d2d35bb75548686332494a009028fb61f43d9da5fbe6a838b80f14d73987d61
+SHA256: 1f18504608b91082e5b7481eb654be7109079ada11b5e04d3ce476a15577a8b1
+SHA1: 0f8f4ba813ee130285d3828c65031730d04d6879
+MD5sum: 2484bce4654aecaa4c55b53f43aa5fae
 Description: Abls Habitat Server runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.6
+Version: 0.7
 Installed-Size: 332
 
 Package: abls-agent-shelly
@@ -122,16 +122,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-shelly/abls-agent-shelly_0.1_armhf.deb
-Size: 16542
-SHA512: 685e36bc7f3a9b1d58817966092b5aa376123042d2cc4b4d08b73cc088079ca048d269790a730f6500dd7cc22822f117fb93e05c769305d421615ac43984a19c
-SHA256: a266454d046e55e106b1a8cf5169c9242051e99d7d3832df34036069ceff5560
-SHA1: c9bb3fe2170bf0197ae740f6d321c19342a6ec73
-MD5sum: 56308b0d196bb5d096b2c548514d6d0e
+Filename: pool/main/a/abls-agent-shelly/abls-agent-shelly_0.2_armhf.deb
+Size: 16552
+SHA512: c4f6bc1056c61fc281013b2ee26e949e396b65ea2edf660d92552a8cf7178a4aa63c5d009f615ddad4075f55dd92c84ad791de6c2a18b7b6e974bb64e721cc53
+SHA256: 101cea244242a2b4ba0626d176978986048f035ba37e4a4f889e59aca79a5814
+SHA1: 18315191c135a8340f5078897bc0395ac166f31d
+MD5sum: a61d7ee7a79243a4d34e399f5dde77ef
 Description: Abls Habitat Shelly runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.1
+Version: 0.2
 Installed-Size: 103
 
 Package: abls-agent-teleinfoedf
@@ -173,32 +173,32 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libmosquitto1, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.32.0), libjson-glib-1.0-0 (>= 1.5.2), libmosquitto1 (>= 1.2), libuuid1 (>= 2.16)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-libs/abls-libs_0.20_armhf.deb
-Size: 42950
-SHA512: cad3425da9c38dae81bfc971f90c41dd1cdc73b99b42d35b43f3aee878224cde4ddfdd1c777784da9b12500677eab9ef7e0cbb661245e1ac9c2809d8a2fde39e
-SHA256: a372c9fd07f80eb9c639af861c901fecc4d4548ea4d255d553b3548e44913f03
-SHA1: 8edf6ba952cccd9c88cc96bd5ec2672cabe669f7
-MD5sum: 86f76ba54499ac3b6453085f0aa5958d
+Filename: pool/main/a/abls-libs/abls-libs_0.21_armhf.deb
+Size: 43142
+SHA512: 5a6f4dc53e81df1749507463d29354b395520a3087a76a106caee34d6066969c5686aff03d50d93bdabda46195c063e038ae58d8dd62ab9013b016ac83c2c1e2
+SHA256: eedb643b7c690aafc3ed898ab8f287cacba77d0f27d5653eb4e173fb84c5b72b
+SHA1: 1326c60f30b3fc221071abde0817f66b121647b4
+MD5sum: 1aa932db4c0f59a7ed0568f64239679e
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.20
-Installed-Size: 404
+Version: 0.21
+Installed-Size: 405
 
 Package: abls-libs-dev
 Architecture: armhf
-Depends: abls-libs (= 0.20), libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
+Depends: abls-libs (= 0.21), libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.20_armhf.deb
-Size: 5234
-SHA512: 220469ada66946dfc830b3898eff77492b0cd49ec65885f2b48fe4286d70a6e2ca622aed4739dc00ca5204a3d04d33cf34d4aba431e9d3236a3c69f47cdc790f
-SHA256: 2acb3926386631b4ba41639dbda00e15c50b0c7fe3bf79367012ba59cdba57d1
-SHA1: c25ab69bd76a9f4e47fdbd4d5d03d986415dd4a6
-MD5sum: a21754194555d3d8523ccb2a4dc48439
+Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.21_armhf.deb
+Size: 5240
+SHA512: bfeedaf3f796c761e9ceccb2aff8617626304e4cff388d6f58f2839cd904a82be4b8da97017bc4383fe061985a40c49db3771737222d79ef39847cc88ef5c685
+SHA256: 7014480f6a63610a90651adb632557c54f014c24bbb1b2243299be1e0677aad9
+SHA1: 062a4e5bc7859a524909e9d862559695c6eddad6
+MD5sum: 9dbf3a77743d453c579e386a47e86358
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.20
+Version: 0.21
 Installed-Size: 51
 
