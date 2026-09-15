@@ -71,16 +71,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-modbus/abls-agent-modbus_0.2_armhf.deb
+Filename: pool/main/a/abls-agent-modbus/abls-agent-modbus_0.3_armhf.deb
 Size: 24546
-SHA512: 7e66e99222dbd788392fe904a8a96844aa7952ede3dc0853c47cdfff2aa1a83aae4841a6c8a0eb76b000033d757a3a6c8e6d99986e736344a9a9cf74fcd0dd4d
-SHA256: 36a4fff2e61f0458b9d025813a32100c4bd826c0c05df10cc8c0eb78f3aaf6ec
-SHA1: 40d02c276e9f702a636b6950efbc681267419d42
-MD5sum: 1f3b488ce33a847077a656f08ca5fb75
+SHA512: f94eab0d942057176408c3b70f883765da0f22194026b2316bbcee515f13c6ae5c368006e15f78c639fd9d525764bb4da5d9e2cff1ddb7e939d8fcc24e39ec7b
+SHA256: ec6634f7a2f09a2575690d39ac856e2ac9ba08c81ccfcdacbad0775f48203fe0
+SHA1: c653d809fc1fbcadcfab157d449c5952c97bc46a
+MD5sum: 4f5517b4c0efd4169458963bd75e18d3
 Description: Abls Habitat Modbus runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.2
+Version: 0.3
 Installed-Size: 113
 
 Package: abls-agent-phidget
