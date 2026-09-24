@@ -173,32 +173,32 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libmosquitto1, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.32.0), libjson-glib-1.0-0 (>= 1.5.2), libmosquitto1 (>= 1.2), libuuid1 (>= 2.16)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-libs/abls-libs_0.30_armhf.deb
-Size: 44392
-SHA512: 589166a0b02d6a34474c881345a7210456c13f06b3279a0e0059f378e79f512114e9e51ee493034d5c9311c74b3059f6cc9453a12fa60dd82807c61475b12b15
-SHA256: 307458174eb57f253cc430d42d6ebb24cac856004922d89022ee89aac331f3c0
-SHA1: 0d391096b076226ffe377d92618c08cf9357f0c7
-MD5sum: fe41326b98cb49681aa07fd92fedc538
+Filename: pool/main/a/abls-libs/abls-libs_0.31_armhf.deb
+Size: 44416
+SHA512: 082fa273af08c4876392d68dbfb0fd31ef5e2168cf2f24d08156f1bdb25ede6a8373b8121ce86b1c8ba6cd8bcb061427ec6e4db898370b6df899b515088469a7
+SHA256: 70df5a708bf02740947334515eeee470541c0b7ef2a7cd69aac9a97334b13d7c
+SHA1: 5cb8b15181d61b2e33afd3b65b7a4a4e559f3658
+MD5sum: 68515cecc42b2b2e5256174d71221a52
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.30
+Version: 0.31
 Installed-Size: 411
 
 Package: abls-libs-dev
 Architecture: armhf
-Depends: abls-libs (= 0.30), libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
+Depends: abls-libs (= 0.31), libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.30_armhf.deb
-Size: 5396
-SHA512: bc3db090a3eb731d27095610fed8f7818786780702e8dd5494611c0485af68de0beabebaf7a6c24087b9dca250791e15491d6f66c4e406a37bc2807381e337d6
-SHA256: f44ea6b5bb84e6633dde2df1545ffd60589d8d4f6ce90236cbc1832afe2c0a76
-SHA1: bb2e39f6d98ee8251b2e71631af5be3fcbf52b1a
-MD5sum: 585776cbc43f24675bdd393cc1e6fa7b
+Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.31_armhf.deb
+Size: 5400
+SHA512: 8960cbef22effd6a717235185b68755f444ed275af037e5107c64d64d53eb6a525ddd1adac40fb6c589785ab4d06250acfa0387f92549af24c7bfce49d119a63
+SHA256: d40ce15dbcf79435f361e8dd438645b0f4db131099d99a3f84db8d2fc4b23bc6
+SHA1: d3bb92b6a433867d11d2358fe18fc6078f14547a
+MD5sum: 480e6c5a4c6417fbb9d7db7f4fa6fde8
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.30
+Version: 0.31
 Installed-Size: 52
 
