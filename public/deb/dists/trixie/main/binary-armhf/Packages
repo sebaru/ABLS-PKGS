@@ -156,16 +156,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-teleinfoedf/abls-agent-teleinfoedf_0.2_armhf.deb
-Size: 21400
-SHA512: 9f3cf2288d92f81633f042273c9a1be35c709d58cbde6bfe2b73a63df788e75b1ccc1750aeb4cdc2fc94f6bf1eaae9e2fdedbb106d7a170461589376258714b6
-SHA256: 86102f59b6cf2953f0a8c7a33f8f186579a4740b4e8c607a4d49b6e11d5f396a
-SHA1: 5672a5ac623702c087b90491728cc0534c68dc40
-MD5sum: 1a2fbb8f804c3d0f6a537af4850b1886
+Filename: pool/main/a/abls-agent-teleinfoedf/abls-agent-teleinfoedf_0.3_armhf.deb
+Size: 21424
+SHA512: bd452e0d62f8930e8740d4a3928bd2663def3349b94c653166d1dbc21e0fe001c03cf804557ae8a61e674158ed99350a7cc416483156973954864cffa3066a75
+SHA256: a29c5642510c556caf13172b9fb18c6c7b086e46d818aab802e8b1af5a4221a3
+SHA1: 35cc74d5a2446616086fa44c4020876d386f832e
+MD5sum: 1c86ebad406931aa6b584483c7e97d84
 Description: Abls Habitat TeleinfoEDF runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.2
+Version: 0.3
 Installed-Size: 110
 
 Package: abls-agent-ups
