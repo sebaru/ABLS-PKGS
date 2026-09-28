@@ -3,17 +3,34 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, mpg123, wireplumber, python3-gtts, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-audio/abls-agent-audio_0.6_armhf.deb
-Size: 11574
-SHA512: 94a0d8732295a87ce670e460c1b20b2d7a0615284985885fded8bff968a1257f5684cb816776a2506621e43f442392ecfcf5588de025f6b7af907c2664c48f52
-SHA256: ad8d4bf2cc12016b599570ee4f8fdb76e00730c6613ec5b7375b3e760a64f56e
-SHA1: 50fcd34ed67a32433b488679583305b3167b626d
-MD5sum: b5cfe753bec8c56acdc001c72a6ad785
+Filename: pool/main/a/abls-agent-audio/abls-agent-audio_0.7_armhf.deb
+Size: 11392
+SHA512: ebd751cc86b79563a1d16fd6520b4d4d1d244677ef0b650bac03e7148cf0c8cd477086ecc3391d11fc975d0628d5394b5091c83f599535dc73c68fc0ef845161
+SHA256: ed392f6cf9f08208ea78e95ea45e6ec0f5a83b1cc805b246c1e507072eaf0946
+SHA1: 4be9a1cb703b9963d70b664ee5529da0b4555454
+MD5sum: 3cae1188b98b8416d84de81d3cda8cc3
 Description: Abls Habitat Audio runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.6
+Version: 0.7
 Installed-Size: 98
+
+Package: abls-agent-gpiod
+Architecture: armhf
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libgpiod2, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libgpiod3 (>= 2.1)
+Priority: optional
+Section: devel
+Filename: pool/main/a/abls-agent-gpiod/abls-agent-gpiod_0.1_armhf.deb
+Size: 13076
+SHA512: 24334a85240a833bf8a6b1c7bbf9783811427090c27069e01eb2b1b8f77c2367ed36a579d5a0fc9e3f8b93be0c70cd415cb34e0ab4a3108c6c07cc459ac30c3b
+SHA256: 68e057cb9237de6b546306eae28f926cbd6a7600b5b1d9d774a5cc62b56434d8
+SHA1: 1a13cf0cf93ffefdeec911a7f04f004384ed6d0b
+MD5sum: 0a22bcf84a5ee206e7764f3ca548ea76
+Description: Abls Habitat GPIOD runtime
+Homepage: https://docs.abls-habitat.fr
+Maintainer: sebastien.lefevre@abls-habitat.fr
+Version: 0.1
+Installed-Size: 101
 
 Package: abls-agent-libs
 Architecture: armhf
@@ -156,16 +173,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libupsclient6t64 | libupsclient6 | libupsclient4, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libupsclient6t64 (>= 2.8.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-ups/abls-agent-ups_0.5_armhf.deb
-Size: 16204
-SHA512: 0f9a0ae7f38510951c373010e7dcd8488216fb29184aac889edafc5e5b63626585d5e146b1a1270be32cd6b4d4ac58f3f1ac7aef5627a8ca45da606453373a96
-SHA256: 1632a6afe88aa138e92234d1ccea5a7fe9c6e9ee4a636e2da4616951dd839f3c
-SHA1: bc52f57cf578a7939fc3b87d0605d5ccd22ca891
-MD5sum: 07156f657238d212a78dec1c0b1c9c20
+Filename: pool/main/a/abls-agent-ups/abls-agent-ups_0.6_armhf.deb
+Size: 16040
+SHA512: cb243e856405e04519a9b00a56e8b35dc671c10505d7db5b37fb762b69ebb18a37f306cb68a2df5d78eeacbfd2facb7523678e826dec6813663789e0df1a19ee
+SHA256: 51d0ca87836b9733613f966e524a6f753e89de454ecd955f9b7751ce92f6209b
+SHA1: 59d1255f5ba3a32b7e23d63cdc140a7d4fbc8424
+MD5sum: 6fdb221005d5fd758914988da0694162
 Description: Abls Habitat UPS runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.5
+Version: 0.6
 Installed-Size: 103
 
 Package: abls-libs
