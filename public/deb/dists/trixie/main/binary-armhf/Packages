@@ -37,34 +37,34 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libcurl4t64 | libcurl4, abls-libs, libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libglib2.0-0t64 (>= 2.32.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.24_armhf.deb
-Size: 46996
-SHA512: 898a0f89b4756be282e40c7ed419c257822ceb192d7783eb0d70909e2686d54f6b44fcf7449243936581da29d286af33cc5c3b277aecfb6a4799186c0f33520d
-SHA256: 87da35a8a9c9d398eafb305417d1a91f8634ef13d2a20875406e6e32bd19595c
-SHA1: 5d61b4c9324a33737ded058d5df1bdd0f947243c
-MD5sum: 0058123b43b000d53774081a5a35e3bd
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.25_armhf.deb
+Size: 49166
+SHA512: b7c156e350cf91b4f88eb6121a65046cf9d1e9daf5ba1046a724cc2fe4a700acde675e95269c9313fb6d89c198b9fcc97303aec607419c3a1780c1042e59f33a
+SHA256: 32bbfb8524c6bc0d0db6f0d2be82737ddf5ffb1f3a0655aa7215774f822dc63d
+SHA1: 33c6c31d7e7b91f29be4fac2a329fa4d817e2018
+MD5sum: 4c64b031619305181b0797cae0db98a5
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.24
-Installed-Size: 430
+Version: 0.25
+Installed-Size: 440
 
 Package: abls-agent-libs-dev
 Architecture: armhf
 Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, libcurl4-openssl-dev, abls-libs-dev
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.24_armhf.deb
-Size: 4034
-SHA512: c941c2e593db4fade1aa4d54b3b860f895a89f7d4e1f19c8f531ab37696dd0d50a5d56bc238cc72a4fe7aca39ba0d59a19a356cf42ad1b5e5c48cca1af5fc75a
-SHA256: dc805a83bb6015a1a4ce4e9fb0dfb8ca4630486e625ed21c6917707fca93d74d
-SHA1: 5130be2a61bada2a123f2a721481870c9200f185
-MD5sum: 4a94893494dbca090811b2f06542e00c
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.25_armhf.deb
+Size: 3604
+SHA512: 353beaf0da6c9013ac9fd7b41e8a18f32794330cdb4ffe6eeb596d4eb2b23146027d2c39abb638d987d67ff7ad72128c70c945c042edd573cc6381e27ff1b780
+SHA256: 3a3958d72325ca8389b3c16e3173cd9c0c21e64c26cc294df641bf199f7ba028
+SHA1: 9e04e4003bac913505ea6e1ea221cce976e429f7
+MD5sum: a72572c928aba73e4d70f2a1713a6087
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.24
-Installed-Size: 43
+Version: 0.25
+Installed-Size: 41
 
 Package: abls-agent-meteo
 Architecture: armhf
@@ -191,11 +191,11 @@ Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libmosquitto1, libc
 Priority: optional
 Section: devel
 Filename: pool/main/a/abls-libs/abls-libs_0.34_armhf.deb
-Size: 44316
-SHA512: d2e828cbacef3a56c9cd7f12c42cfc6efca7e9bff50575c253ecb6d7c4d16e2e2ca97721c211cc7deaab68c47215fbf863a1f79f6b178d98d6def20d6698e183
-SHA256: 06d32f18ce31185b68cb32555d7e4f831770f36b2d5cd96306cd455cdf081041
-SHA1: 0d0abc17280517553d8d1611385c472d191b6346
-MD5sum: 8205bd657ca45f4842c50d11ab951b02
+Size: 44322
+SHA512: adc3765dbb57f58066fb65878c13267c275f35a790fe84678b25893dd61d7579ce29962f20f2d5682acb08dfb6ec2018ab0c37b7bdac7d6d9468e6fa9757c7db
+SHA256: d03b44e55a085b73013596f176a818ba4ff45fa00c8210d20e65912cc5e7fa29
+SHA1: 570dd8cbcfc5aefdebb42e52613462f888ca8fb4
+MD5sum: aeb381c376e2c5602f6af6c7823a7e89
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
@@ -208,11 +208,11 @@ Depends: abls-libs (= 0.34), libglib2.0-dev, libjson-glib-dev, libmosquitto-dev
 Priority: optional
 Section: devel
 Filename: pool/main/a/abls-libs-dev/abls-libs-dev_0.34_armhf.deb
-Size: 5306
-SHA512: ccc219fb7dc8cdd50b3350d93176daffb12a470ad094c160ca327a6261506e97fa2dfc83a9541cb7dcd7c2ef962a7aa3817ed2251253ef7ea27c4f0953aa4df6
-SHA256: 95e182ef95fb92b001fec9de493896fa051ca6669fa6d71a027cabdd0da3d3ee
-SHA1: 305fa4ff6f31273ff39fbf89dc121c637674547b
-MD5sum: 59513019b9125c8f5ffe9a81e3cfe635
+Size: 5308
+SHA512: 466394ef415b58af515c62482d649f414c6fe73a77c68dfc2e29b1118e663a2dc49efadeac7a6daf56f148bf1e97805f88030b179bf7b187b427d1167120be37
+SHA256: 217c0625e70526822b8fe681b17bd5ae4dc15383acae8166dda5093610d85cbe
+SHA1: 968ff6abb4a3223dc15cf8e762fb9922aa9e2150
+MD5sum: e010816de486f679ab2c57f5c0848dc5
 Description: Abls Habitat shared logging library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
