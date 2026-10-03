@@ -3,33 +3,33 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, mpg123, wireplumber, python3-gtts, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-audio/abls-agent-audio_0.7_armhf.deb
-Size: 11392
-SHA512: ebd751cc86b79563a1d16fd6520b4d4d1d244677ef0b650bac03e7148cf0c8cd477086ecc3391d11fc975d0628d5394b5091c83f599535dc73c68fc0ef845161
-SHA256: ed392f6cf9f08208ea78e95ea45e6ec0f5a83b1cc805b246c1e507072eaf0946
-SHA1: 4be9a1cb703b9963d70b664ee5529da0b4555454
-MD5sum: 3cae1188b98b8416d84de81d3cda8cc3
+Filename: pool/main/a/abls-agent-audio/abls-agent-audio_0.9_armhf.deb
+Size: 10676
+SHA512: 33d0a5f9fc5f31f2703c797199483d0a62d097a9e6ce4e43abab375885be0bdc75c19ed1a183a83313be1502724192eec319340c9e8db75017ef9000ebaec572
+SHA256: 8837b89ea87a653c6551b7e9ccd976173260e9b3f7329335c32d95e530ca7fb5
+SHA1: 1088c652ceb8c673bb9b464abda0aef4028301e9
+MD5sum: d67c55b534ac77f7d24d5caf5d26b1cc
 Description: Abls Habitat Audio runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.7
-Installed-Size: 98
+Version: 0.9
+Installed-Size: 97
 
 Package: abls-agent-dls
 Architecture: armhf
-Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.36.0), libjson-glib-1.0-0 (>= 1.5.2)
+Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, adduser, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.36.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-dls/abls-agent-dls_0.3_armhf.deb
-Size: 86570
-SHA512: 9281894988dd0f8928ff836d9d037f6ec898b8e883cb60482138a365ecd981bb7230f3a567806b587c74a1421584ae68b3e2f5a79a360996d175df43010248e5
-SHA256: 5ad7a69abb5152568b8b8939622f0b7f7b1b327252a3202cc63f99d324b1dd08
-SHA1: e40b8544f995cb45514712ff50f49a0f206ada96
-MD5sum: 679a2cfa4dda985d1526d873894eb7bd
+Filename: pool/main/a/abls-agent-dls/abls-agent-dls_0.4_armhf.deb
+Size: 86622
+SHA512: b3dc0aa649245d1b6c98e2a1dcff3ae3c7ed1f1ff1cc6e26af4e2aee7021ff5ec2b288b13b67decf24f2944c133415c4235ff61f4c087f9072455765663814f7
+SHA256: 5ba0a2f4f78d77203ff0da1bafd209021291edf76ce33ea543d1e91078e104d0
+SHA1: 4dd54750e1fda8d64140a3b0a96e599c254435e5
+MD5sum: 0058a198d8ae0e801c82574e361440e7
 Description: Abls Habitat DLS runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.3
+Version: 0.4
 Installed-Size: 323
 
 Package: abls-agent-gpiod
