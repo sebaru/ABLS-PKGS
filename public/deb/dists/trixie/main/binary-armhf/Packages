@@ -20,16 +20,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, adduser, gcc, libglib2.0-dev, libjson-glib-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.36.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-dls/abls-agent-dls_0.6_armhf.deb
-Size: 94652
-SHA512: 62f5a2ec59fcdcd3f05d0e725d591b560d25ddd95755238c7a7d0d71ca3c425f0e9ef64c486c06d04f03de6dc1bd0080adf5ef686010fbe1eb146beb3a67f789
-SHA256: 2ef5124d369437b2584d3cee890e25c21daadadcda9618e3cff82161013c1ab8
-SHA1: 8853c59b539f7636888146c8ac18f185c2d740ad
-MD5sum: 939bd0a63f2f9505eefc0a6335d73209
+Filename: pool/main/a/abls-agent-dls/abls-agent-dls_0.7_armhf.deb
+Size: 94688
+SHA512: 02f8a01637fc5c06f7f3c658ce73ece4d3bae5ff7c5b6d90dab1f96be2ba34a253d416b9da9b82063bbe1b6b09c85d9abdd9177e4396c7217cafe6e2a9cd91d9
+SHA256: 52e3ff1466661fc9a05eef5423ba58454354fdf01a52d1617c4a37339fe59ba9
+SHA1: 39eb78675853d9551877200653a0b869e6637155
+MD5sum: fbbaf328c97c6507f6ffe8297f91f7c9
 Description: Abls Habitat DLS runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.6
+Version: 0.7
 Installed-Size: 351
 
 Package: abls-agent-gpiod
