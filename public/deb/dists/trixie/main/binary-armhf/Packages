@@ -20,17 +20,17 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, adduser, gcc, libglib2.0-dev, libjson-glib-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.36.0), libjson-glib-1.0-0 (>= 1.5.2)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-dls/abls-agent-dls_0.13_armhf.deb
-Size: 99220
-SHA512: e41e9ed182f7e20aefd1c9b73c95c1abaa980848fb9036264392df6113528bcb7c7f760ebbf35f64d382afb37feef76757b3d118b0061af03af7a13d22dcb866
-SHA256: b302dd45f97eedbe4471f799c1cbcbb0daf785f39a102df8b2e194b5f3b6d557
-SHA1: 4e89cf8f5b4513c8d32dc798d017f9a85485139f
-MD5sum: bdab03b43dbf4885918e02d26dcfd766
+Filename: pool/main/a/abls-agent-dls/abls-agent-dls_0.15_armhf.deb
+Size: 98220
+SHA512: 9b55d0d48e75203c7467121e87645dd94e42bcec847deab40cec6904e47306fcfb094c7ddb7625bff8a5a9d48286325e668c0641de592079dde78413b713df87
+SHA256: de765be9d4d2181bb82be3323433f2d231b631cbaf558fa1506db180a027aa99
+SHA1: b9de1cb63c87356e46888dd0c255743ca1fbb3e9
+MD5sum: b4d3a1ed0acb865edca1912335137ffb
 Description: Abls Habitat DLS runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.13
-Installed-Size: 355
+Version: 0.15
+Installed-Size: 357
 
 Package: abls-agent-gpiod
 Architecture: armhf
@@ -190,17 +190,17 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libcurl4t64 | libcurl4, libssl3 | libssl3t64, abls-libs, abls-agent-libs, libc6 (>= 2.34), libcurl4t64 (>= 7.16.2), libglib2.0-0t64 (>= 2.28.0), libjson-glib-1.0-0 (>= 1.5.2), libssl3t64 (>= 3.0.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-sms/abls-agent-sms_0.3_armhf.deb
-Size: 32368
-SHA512: 2d3f8bc49aa463201644f472bb926e7640fe9e568c7926893b08e33232d5a3c9e07256673cd82dcb1bfa6e066eda31514ad780fb5ebbfefedaa9aed472398504
-SHA256: 5d35fb0754acc960ec0afa015154e7ade29d9f5110edd9cf19e99be44ebf1f20
-SHA1: 443791e6bc750657c7fe41eb5e72130c9dde04a1
-MD5sum: c328926b4293d8a32317722faac13341
+Filename: pool/main/a/abls-agent-sms/abls-agent-sms_0.5_armhf.deb
+Size: 32860
+SHA512: 1aa655f35b51f7a4c0f04faa2964d475373ef550e1ea7b6b82eeb3f7e474db997e41aee3f0361f9be14151fd9de651b77b2e882cd53c33c153bb8fd72da8fd95
+SHA256: 84c480c41d29a38b5b679c32957fe004220387863d38c641c845d68ab98781d3
+SHA1: fb3129f218e050493650e44d6a69badba1607ee8
+MD5sum: 55ca73d7df92c8d7b66f0043b7fd7eeb
 Description: Abls Habitat SMS runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.3
-Installed-Size: 133
+Version: 0.5
+Installed-Size: 141
 
 Package: abls-agent-teleinfoedf
 Architecture: armhf
