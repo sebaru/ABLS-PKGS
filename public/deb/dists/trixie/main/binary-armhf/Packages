@@ -37,17 +37,17 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libgpiod3, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libgpiod3 (>= 2.1)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-gpiod/abls-agent-gpiod_0.3_armhf.deb
-Size: 12292
-SHA512: f8cb39ccb7cf78e14dc4ab19f45283d34e7dc1ed4a66b05da303325769cd4af7cf39c1a3007dcea10dba84ccdb0e5a7291fd0c1b3f729f793247944282ad20c2
-SHA256: 55a83b579c00c8e4e5a375f2055f556b39b30e1ec28e466321b2c4a9b3345d9c
-SHA1: 1ad1f9e4bcdbbf907d3e09bf338162994f934f13
-MD5sum: e4a4bf66c0f7e6edf50c35aa5d500d54
+Filename: pool/main/a/abls-agent-gpiod/abls-agent-gpiod_0.4_armhf.deb
+Size: 12688
+SHA512: 1b506362d85a94684c5a09f53b074835ea45fa642f807c6645070ba437951a149475faf2c2d2676215be146cd4496f046d7bd1c3132e682a7a090238e9b92b6d
+SHA256: cc7437cb58f96cf7ccad9089deaf7d0ce0bed91beedbc8d2bbe56deee971922b
+SHA1: 23f8c843c83575128a2e902ae332921657e4fb04
+MD5sum: 48c9a5e33d928518e85452f373e80e0c
 Description: Abls Habitat GPIOD runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.3
-Installed-Size: 99
+Version: 0.4
+Installed-Size: 100
 
 Package: abls-agent-imsg
 Architecture: armhf
@@ -71,33 +71,33 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libcurl4t64 | libcurl4, abls-libs, libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libglib2.0-0t64 (>= 2.32.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.30_armhf.deb
-Size: 50256
-SHA512: 6f8ede032ad14f8ced51948cdea0064f3c57a69a34b9d53d79933f366625e0b2d57b801402b8846d7054c79bf4358f9418f5c3d6ec2b8de1d47124e4d391b4cb
-SHA256: 80840ca5e5dc8d340ea9f3ad93f2bc1f53da4e9475134da314eb5515150eb462
-SHA1: e9e875804ebf25b9a1b50ad7aba03a5808cff6d1
-MD5sum: f0ed3a853c73a92e46c18324c3bc5578
+Filename: pool/main/a/abls-agent-libs/abls-agent-libs_0.31_armhf.deb
+Size: 49736
+SHA512: dfcb573e198284dcfdd912d7d4ac4ce018291c528b327cdf48014f40b1e701e901ea7a3172c3524c8824594d633a744c2fdd7fff119a47ef119fcd202e55c9df
+SHA256: 8f2d40a1d03e0ce42ea79c3cdfbda84743549efda680e4b4c1245b98cfd0393b
+SHA1: 69483a6125ae7e5b949bcb4d671a6080ba72cdd3
+MD5sum: 6fe76e5f7e625ca26d3b334bc9084d8c
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.30
-Installed-Size: 445
+Version: 0.31
+Installed-Size: 444
 
 Package: abls-agent-libs-dev
 Architecture: armhf
 Depends: abls-agent-libs, libglib2.0-dev, libjson-glib-dev, libcurl4-openssl-dev, abls-libs-dev
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.30_armhf.deb
-Size: 3632
-SHA512: 5593b40c9f3ee4cee9f6022bfed4533f3bbacc627082dbca8017f6ee1805389d60d0fc7e80548b76d1d35578c9cdaac46aa2d3ee3f545f27450641ada588734c
-SHA256: a7f11171baa5d838e303a281c89d62ecf05e770534b5fce6c48766329319ea90
-SHA1: 9fe1901baabce7cbc0c00076f4ddf78de8d9b6ba
-MD5sum: 704033aaa14994cc2a81e84581769234
+Filename: pool/main/a/abls-agent-libs-dev/abls-agent-libs-dev_0.31_armhf.deb
+Size: 3634
+SHA512: 5c496efbb452f56ea823f4834243d5ba33c29bd18515ffbcecb4d55f3a13226dd17bebeeb0b9a85439d978ca6245e412131eb62c1b4b8c4d8cc043ea54fd88e0
+SHA256: 8ee2d38a27cb0b8730a8e453c5627802954ebac3964957984714e413dc3e63f5
+SHA1: ee31d5cb71957a5b6e2a4f144d060609294c2c2d
+MD5sum: ba415f1623eacce357f6d0851cc457b4
 Description: Abls Habitat reusable satellite lifecycle library
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.30
+Version: 0.31
 Installed-Size: 42
 
 Package: abls-agent-meteo
