@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Sun, 25 Oct 2026 10:23:42 UTC
+Date: Sun, 25 Oct 2026 18:02:08 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrd2K4ACgkQEmcf24cC
-XRtaGA//Y+dgQz53Hm8nPrV04hVZMCG7J9U93BO9CBmqKCeuXuX+x6OTDTAXRxMo
-rr9xcg9gsAwsEVCWDky5BNDroGiFdjkV4IzwIe1FnZJJzFyR7MfjBtXfhcJhs8Ep
-FaTXL+lEjKlntUmTk/TRP2O4Joy8zYAjfiqYRDkrdhvNUcTNh48K5B20w74sAD6e
-hZpuQhOzc0OT7mNgcbyIVkzEN5WtfIvRnWzvr2pdJmB4UjNCP0zCxrDdIXWerx72
-kUEk5ckOAv/wMdjbVldyJvtqpPJATVehxkFhagK0EkKBp//KkAHhstVeCAcMwEVi
-7OxS8yl0Udhwl7COidTAclAZ6aTmePZD7Zu/hN67QkckxJ3mE0OhjxFa17CPEwkv
-YWcVnh/CC31Wkh5WbAcap7IGgQypQu7bDbVSxyXye0ZgxSNTQ+GOZA0Ggg5+2r/G
-l82ikhxSZadgOpjQymowaNkHewa9AiLml9PS6vGhK6E+abWKFRSqJhcI/lFNNfq+
-Y+JS0iBxiJi8VWTPrFCy1WjecfgdKuYZK6i488gGWw4XH8306Mz6KW3fnf528h+N
-3cq3CgaGwlcU09PvUDwES+HEz6ILuqJeOjzRGcMflY/I51SUY6a0JTehKbU9fcmh
-o/xbeFiDZCor1lMs+aa9lTXofaspyAYbS8acqECjrBM0O2KSeIA=
-=D/L4
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmreRCEACgkQEmcf24cC
+XRuF9BAAiCjfzUVo9vAot6nmXVA0GDBfa/EeliBM00jJsCMWbFGpuNRjxPE582cD
+fbiEU2u2v9jSjeysla8ZcgTtPB1nNpzR3JgDNinYAo6P4CQHY7Vk/d4pHdYyX1Fp
+ycZL3pbpMI95J8/HtnzwmKlFaWZc6cQ3GBGOZmr6Az8/QuJu2b/o6/KdBhH5y4Sm
+d7XA0VHdpMsQx6Lj3mcAbEcCUYtlGpzpaybAPiTYVrCR+kErqLKR8MFZlFpMLceC
+RwXQ+QfEq1FKCeDfRuFp0yX5T+jOJmX0p+/0spG70kkxOuFRGYSExEn7EkoaKNze
+1hVHX46GGLntqFSO76d2RhoKP5Aq7ChM6YaVOZ8NSbCPE+rzJa25uY9l+NV9t8Mj
+yManROTp09rR2U2ANLXFLV6RsphutTx0sBJNuZv6DhkNimcbUW+RBdPJonc/lTU+
+3pkzObPuZSzJWiejVr38WJn+BV2oCPn4QIjhyJPxUSYFYb9uI7Zr7QugKLBj1P6b
+1w3SodNC2+gl+mjokEaFCLVxYX0vSRFhmLniTQDuwNgjydG4KEzb+JdQ0hSL301P
+qT3fDa2nobvmK3PAGi4B3qNuKHIkKiqErKmOxjrxhCLv9OfS9KhlXef8hLFYRWh/
+iPoX1qv1xLa7vxWERIGvZQoTrAf3mKsQj1aNA+O2wv/WK9XPDPE=
+=ISoM
 -----END PGP SIGNATURE-----
