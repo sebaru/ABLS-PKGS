@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Sat, 24 Oct 2026 18:41:34 UTC
+Date: Sun, 25 Oct 2026 10:23:42 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrc+94ACgkQEmcf24cC
-XRulCQ//RzHxrmsAQe81Sc17VOjS7/pugWF4SAxFAcZmgF6ATVk3KpbV5O0JFatZ
-OaiHg8DM52ryu+nw0RFNXqngcSC7xSC1G8IV9vAQFrXtCAXIwBZtd/dnYZdSeFi9
-hKwXmwOgV3NZaJukXvdPefPKcYfwSPDJc7MFANqUu36vTVOhK5vwHZCQ2Ia4ZIXU
-jFvhzQ2d5pYbRjyiyv7VUdrhZmK98wq7dyHIrwBx9hIHgnmEB4lFQmY8lUxS5WvB
-d3bgd+1Ur1J3H77eO331VsUJBAEcO4hln26U0xRfJsAB8M0CRtZkdN4p5J3rsOe/
-aomoRPL5LI0JsGTMzCN0zX8b0zl74XJ0SU4ER6PuagomdsDUE1bEjFqlQIisgLLO
-qnWlzZUZPkY8kgWkIiaQiKfLDYnYW9nfgQPUcBzcaA6YdXjBDBOL4BjXis8m+yUd
-7MR+tVZVkaMfZSNINFafmg4UXo29xJLv65s1byNQwUQPVbTsSKSVBAwAbh3wNW8S
-UdXHHmyIaRgC2SVnMRxUW6phfO5VnukxqByMMugAASQX15VL9D+b1rgjGlyooPGw
-i3Tn+0kOSpiqPn2tz41cjgHeBljHEo1jUDu2SE5X0hqlYpYjQ7IBVftj4IQIcGBg
-c5STRgX+JaCezbXT0Ga2s4mtpGfvjzFD+pM5pDhTImLH5gaKNvU=
-=aVyV
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrd2K4ACgkQEmcf24cC
+XRtaGA//Y+dgQz53Hm8nPrV04hVZMCG7J9U93BO9CBmqKCeuXuX+x6OTDTAXRxMo
+rr9xcg9gsAwsEVCWDky5BNDroGiFdjkV4IzwIe1FnZJJzFyR7MfjBtXfhcJhs8Ep
+FaTXL+lEjKlntUmTk/TRP2O4Joy8zYAjfiqYRDkrdhvNUcTNh48K5B20w74sAD6e
+hZpuQhOzc0OT7mNgcbyIVkzEN5WtfIvRnWzvr2pdJmB4UjNCP0zCxrDdIXWerx72
+kUEk5ckOAv/wMdjbVldyJvtqpPJATVehxkFhagK0EkKBp//KkAHhstVeCAcMwEVi
+7OxS8yl0Udhwl7COidTAclAZ6aTmePZD7Zu/hN67QkckxJ3mE0OhjxFa17CPEwkv
+YWcVnh/CC31Wkh5WbAcap7IGgQypQu7bDbVSxyXye0ZgxSNTQ+GOZA0Ggg5+2r/G
+l82ikhxSZadgOpjQymowaNkHewa9AiLml9PS6vGhK6E+abWKFRSqJhcI/lFNNfq+
+Y+JS0iBxiJi8VWTPrFCy1WjecfgdKuYZK6i488gGWw4XH8306Mz6KW3fnf528h+N
+3cq3CgaGwlcU09PvUDwES+HEz6ILuqJeOjzRGcMflY/I51SUY6a0JTehKbU9fcmh
+o/xbeFiDZCor1lMs+aa9lTXofaspyAYbS8acqECjrBM0O2KSeIA=
+=D/L4
 -----END PGP SIGNATURE-----
