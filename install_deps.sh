@@ -53,6 +53,8 @@ install_rpm_deps() {
     git
     gnupg2
     rpm-sign
+    python3
+    zstd
   )
 
   if command -v dnf >/dev/null 2>&1; then
@@ -69,6 +71,8 @@ install_deb_deps() {
     git
     gnupg
     reprepro
+    python3
+    zstd
   )
 
   if command -v apt-get >/dev/null 2>&1; then

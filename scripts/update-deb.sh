@@ -31,6 +31,8 @@ require_cmd() {
 
 require_cmd reprepro
 require_cmd gpg
+require_cmd python3
+require_cmd zstd
 
 if ! gpg --batch --list-secret-keys "$GPG_KEY_ID" >/dev/null 2>&1; then
   echo "ERROR: missing GPG secret key for SignWith: $GPG_KEY_ID" >&2
@@ -138,8 +140,11 @@ if [[ -f "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS" ]]; then
   gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$BASE_DIR/public/rpms/keys/RPM-GPG-KEY-ABLS"
 fi
 
+python3 "$SCRIPT_DIR/update-inventory.py"
+
 git add \
   public/deb/ \
+  public/inventory.json \
   public/abls-archive-keyring.asc \
   public/abls-archive-keyring.gpg
 

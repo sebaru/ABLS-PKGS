@@ -1,0 +1,2937 @@
+{
+  "packages": [
+    {
+      "name": "abls-agent-audio",
+      "version": "0.10",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.20",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-gpiod",
+      "version": "0.4",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-imsg",
+      "version": "0.4",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.32",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-libs-dev",
+      "version": "0.32",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-meteo",
+      "version": "0.4",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.7",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.9",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.22",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-shelly",
+      "version": "0.4",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-sms",
+      "version": "0.5",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-teleinfoedf",
+      "version": "0.4",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.7",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.38",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-libs-dev",
+      "version": "0.38",
+      "format": "deb",
+      "architecture": "armhf",
+      "distribution": "trixie"
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-audio-debuginfo",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-dls-debuginfo",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-gpiod-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-imsg",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-imsg",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-imsg",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-imsg-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-imsg-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-imsg-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.23-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.24-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.25-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.26-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.27-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.28-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.29-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.30-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.31-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.32-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.23-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.24-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.25-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.26-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.27-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.28-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.29-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.30-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.31-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.32-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-debuginfo",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.23-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.24-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.25-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.26-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.27-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.28-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.29-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.30-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.31-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.32-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-libs-devel",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-meteo-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus-debuginfo",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-modbus-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-phidget-debuginfo",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-server-debuginfo",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-shelly-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-sms-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf",
+      "version": "0.0-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf-debuginfo",
+      "version": "0.0-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-teleinfoedf-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.0-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.0-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-agent-ups-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.0-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.23-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.24-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.25-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.26-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.27-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.28-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.29-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.30-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.31-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.32-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.33-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.34-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.35-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.36-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.37-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.38-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.23-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.24-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.25-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.26-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.27-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.28-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.29-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.30-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.31-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.32-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.33-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.34-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.35-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.36-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.37-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.38-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-debuginfo",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.0-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.1-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.10-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.11-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.12-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.13-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.14-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.15-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.16-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.17-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.18-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.19-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.2-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.20-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.21-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.22-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.23-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.24-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.25-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.26-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.27-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.28-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.29-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.3-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.30-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.31-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.32-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.33-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.34-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.35-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.36-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.37-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.38-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.4-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.5-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.6-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.7-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.8-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    },
+    {
+      "name": "abls-libs-devel",
+      "version": "0.9-1",
+      "format": "rpm",
+      "architecture": "x86_64",
+      "distribution": ""
+    }
+  ]
+}

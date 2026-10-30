@@ -24,6 +24,8 @@ require_cmd() {
 require_cmd gpg
 require_cmd rpmsign
 require_cmd rpm
+require_cmd python3
+require_cmd zstd
 
 if command -v createrepo_c >/dev/null 2>&1; then
   CREATEREPO_CMD="createrepo_c"
@@ -102,8 +104,11 @@ if [[ -f "$RPM_DIR/keys/RPM-GPG-KEY-ABLS" ]]; then
   gpg --dearmor --yes --output "$PUBLIC_DIR/abls-archive-keyring.gpg" "$RPM_DIR/keys/RPM-GPG-KEY-ABLS"
 fi
 
+python3 "$SCRIPT_DIR/update-inventory.py"
+
 git add \
 	public/rpms/ \
+  public/inventory.json \
 	public/abls-archive-keyring.asc \
 	public/abls-archive-keyring.gpg
 

@@ -10,8 +10,8 @@ Installer les dependances de publication avec:
 
 Le script detecte automatiquement le type d'hote:
 
-- hote RPM: installe `createrepo_c`, `git`, `gnupg2`, `rpm-sign`
-- hote Debian: installe `git`, `gnupg`, `reprepro`
+- hote RPM: installe `createrepo_c`, `git`, `gnupg2`, `rpm-sign`, `python3`, `zstd`
+- hote Debian: installe `git`, `gnupg`, `reprepro`, `python3`, `zstd`
 
 ## Arborescence
 
@@ -98,3 +98,34 @@ Le repertoire `public/` est la cible exposee en HTTP.
 Le script `update-rpm.sh` met a jour `public/rpms/` en place.
 Le script `update-deb.sh` met a jour `public/deb/` a partir de `deb-incoming/`, signe les metadonnees DEB et met aussi a jour les keyrings APT publics.
 `update-rpm.sh` et `update-deb.sh` relancent `scripts/verify-repo.sh`.
+
+## Inventaire JSON
+
+Apres la generation des index, les deux scripts regenerent `public/inventory.json`
+et l'ajoutent aux artefacts prepares pour le prochain commit Git.
+Ce fichier recense tous les paquets references par les index RPM et DEB publies,
+avec une entree par version, architecture et distribution disponible.
+Les paquets encore dans `deb-incoming/` ne sont pas inclus.
+
+Format:
+
+```json
+{
+	"packages": [
+		{
+			"name": "abls-agent-server",
+			"version": "1.0-1",
+			"format": "deb",
+			"architecture": "arm64",
+			"distribution": "bookworm"
+		}
+	]
+}
+```
+
+La version RPM inclut la release et l'epoch lorsqu'il est non nul.
+Le champ `distribution` est vide pour les RPM.
+L'inventaire est trie et remplace atomiquement pour ne pas exposer de JSON partiel.
+Il est accessible a l'adresse `https://pkgs.abls-habitat.fr/inventory.json`.
+Pour le regenerer seul, sans importer ni signer de paquets:
+`python3 scripts/update-inventory.py`.
