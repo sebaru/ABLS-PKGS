@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Sun, 25 Oct 2026 18:05:24 UTC
+Date: Sun, 01 Nov 2026 16:29:50 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmreROQACgkQEmcf24cC
-XRu3PA//dNRh5m+paWpkE2xM0egXmRV0i8QGzk1YiqhFrlVCHsyfCu6vNni3ZN10
-aXeR8xRcwtfGC9Lia9bHTUxwxj/8hpVwPQpriIn8/GDTif6W2r20l75lfEny2gCT
-JHpZnCXoXj70sX1QpYRYeIE7p/1O39yyBfAYbneynXHT3XbtpW5DSRXjY7SUO1eV
-brsEf7vRAE5GC6b5LiHsVUzBI8bFGepShYHG99Gd+qA7yvxiQTs/LRgQo/fJ4cZR
-YVyBQ9IIaO8ds+Y3IcwizEfmj7HoxAI12qupq1GAaJH9YaqL+Z1wRARxppbpR+DT
-2dgso/aL88fp7yGU2w3OB/Sbw6gfK1kQNnDCLhxqrRlxi0oYywLwx73yZAscDbQ/
-LPKVdj4o4sxl0XSKX31dmeD1z29sFmOGbNMBU5oQEW6drkOKCz0aOGbh/wWJE+Uo
-IT+b15AgbyMHcN5ectEZuAUmi7ZTrROUm6LEdlPeU8UVCwJGuneWh/2eDMQ4wrOh
-Ao+JsySlocmCelJs0gvZ+YYjhfT6PA1tgYaLwbhxwUl+ZsfE2lM2CkGAtkAoXGE0
-rSxsMqPzblSCbeMpBgmxVsqABUR6uqPUQQ25Q0TUJW7g7JF+HoxuN4ApDhjsqxS7
-20FR3rX5o9VKJgM6m4A+EXegKExJ3dsUhZr8tYU4cCmIbrjCeeU=
-=vJx6
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrnaP4ACgkQEmcf24cC
+XRu+1A/+IdeuYTxz8ml8BLMzt80vK4jrXLqCupsHPGX7GAZC/Jln1/dAF9p245WO
+shsm0BOb5pnLm6HTWlXemJJxws/Kxp8SilLV5R9rmNBzJ1vUDrib/XD0KrHv6PnQ
+qSIoWvCJkcT7vARRvcbcVrhUrErsa+zhRbmgbgtfEeg/Y4kuXkxIYv4wGJAN6GpZ
+K0lSxXtlwO3d3L/Tc6Z8jk/37lXcu+CGWcaKnhCqFjU7Ni1crkr03ymGCj9vuiZx
+uIz3K2pMyaApgAlhphkRxAeWLARNCk0TdXRvHhfVLFddjm9zAhIPBVvVF1gnw9mB
+jrEYaf8gzRPr8xNmvrwMUsEpcJ98Y/h64sMTLek7sSRzVera8CixYw+CtK2sFLWi
+0o2pzGR3sQ6lIGeeAZwaw95Ez4WW/lX3u42QsKcR8bflbwlx5ok0f0XQ8Sm3VK1z
+hrGAWTk77qdXj5pA1Ez3mw9vFkYpEiEqT5sXNzE5DPRMj0rytniUuanj2YTUAigg
+rId62EwObwtzDIZV75q4MaMKP+K34avk7jOkkUm3iUAfFuuQACKynhR8oRVtgMe7
+13A8aU2ScoiGkaZnudKDHZQ7/HZYHr5aF0Z3N2+wFxId1Phde+wlKzX8puLSQF9p
+5i0Hz3SpQFaR4hS+q5t5lEZOoKccU3UhzSC7fYETqC/ThkFz39E=
+=qSQK
 -----END PGP SIGNATURE-----
