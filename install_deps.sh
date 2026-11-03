@@ -57,6 +57,12 @@ install_rpm_deps() {
     zstd
   )
 
+  if command -v dnf5 >/dev/null 2>&1; then
+    packages+=(dnf5-plugins)
+  else
+    packages+=(dnf-plugins-core)
+  fi
+
   if command -v dnf >/dev/null 2>&1; then
     "${SUDO[@]}" dnf install -y "${packages[@]}"
     return 0

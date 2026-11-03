@@ -6,6 +6,8 @@ BASE_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 PUBLIC_DIR="$BASE_DIR/public"
 RPM_DIR="$PUBLIC_DIR/rpms"
 ARCHES=("x86_64" "aarch64" "noarch")
+# Number of versions kept per package name and architecture (same policy as reprepro "Limit").
+KEEP_VERSIONS=1
 
 if [[ -n "${1:-}" ]]; then
   echo "ERROR: unknown argument: $1" >&2
@@ -26,6 +28,13 @@ require_cmd rpmsign
 require_cmd rpm
 require_cmd python3
 require_cmd zstd
+require_cmd dnf
+
+if ! dnf repomanage --help >/dev/null 2>&1; then
+  echo "ERROR: missing dnf repomanage command" >&2
+  echo "Install hint: sudo dnf install -y dnf5-plugins (or dnf-plugins-core)" >&2
+  exit 1
+fi
 
 if command -v createrepo_c >/dev/null 2>&1; then
   CREATEREPO_CMD="createrepo_c"
@@ -77,8 +86,21 @@ for arch in "${ARCHES[@]}"; do
     sign_rpm_if_needed "$rpm_file"
   done
 
-  # Keep metadata aligned with what is effectively exposed.
+  # repomanage reads repodata when present, so it must include newly copied RPMs first.
   "$CREATEREPO_CMD" --update "$dst" >/dev/null
+
+  old_rpms="$(dnf -q repomanage --old --keep="$KEEP_VERSIONS" "$dst")"
+  if [[ -n "$old_rpms" ]]; then
+    while IFS= read -r old_rpm; do
+      [[ -n "$old_rpm" ]] || continue
+      [[ "$old_rpm" == "$dst"/*.rpm ]] || { echo "ERROR: unexpected repomanage output: $old_rpm" >&2; exit 1; }
+      rm -f -- "$old_rpm"
+      echo "Removed old RPM: ${old_rpm#"$BASE_DIR"/}"
+    done <<<"$old_rpms"
+
+    # Keep metadata aligned with what is effectively exposed.
+    "$CREATEREPO_CMD" --update "$dst" >/dev/null
+  fi
 
   repomd="$dst/repodata/repomd.xml"
   if [[ -f "$repomd" && -n "${GPG_KEY_ID:-}" ]]; then

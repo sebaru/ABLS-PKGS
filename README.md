@@ -10,7 +10,7 @@ Installer les dependances de publication avec:
 
 Le script detecte automatiquement le type d'hote:
 
-- hote RPM: installe `createrepo_c`, `git`, `gnupg2`, `rpm-sign`, `python3`, `zstd`
+- hote RPM: installe `createrepo_c`, `git`, `gnupg2`, `rpm-sign`, `python3`, `zstd`, `dnf5-plugins` (ou `dnf-plugins-core`) pour `dnf repomanage`
 - hote Debian: installe `git`, `gnupg`, `reprepro`, `python3`, `zstd`
 
 ## Arborescence
@@ -31,6 +31,7 @@ Le script detecte automatiquement le type d'hote:
 Workflow RPM (`./scripts/update-rpm.sh`):
 
 - Mise a jour in-place des metadonnees dans `public/rpms/*`
+- Retention: seule la derniere version de chaque paquet (nom + architecture, `debuginfo`/`devel` inclus) est conservee; les anciennes sont supprimees via `dnf repomanage --old --keep=1` (`KEEP_VERSIONS` dans le script)
 - Signature automatique des paquets RPM et de `repodata/repomd.xml` pour chaque architecture
 - Mise a jour automatique du checksum `public/rpms/keys/RPM-GPG-KEY-ABLS.sha256`
 - Republie aussi la clef APT partagee `public/abls-archive-keyring.{asc,gpg}`
@@ -60,6 +61,7 @@ Workflow DEB:
 
 - `scripts/update-deb.sh` importe les `.deb` depuis `deb-incoming/<suite>/` et `deb-incoming/<suite>/<arch>/`, regenere les metadonnees APT signees et republie les keyrings APT partages.
 - Seuls les artefacts publies (`public/deb/*`, keyrings) sont versionnes; la zone `deb-incoming/` reste une zone de transit.
+- Retention: `Limit: 1` dans `public/deb/conf/distributions`; `reprepro` ne conserve que la derniere version de chaque paquet par suite et architecture, et supprime les anciennes du pool.
 
 Notes:
 

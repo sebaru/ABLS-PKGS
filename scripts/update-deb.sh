@@ -52,6 +52,7 @@ Architectures: $ARCHES
 Components: main
 Description: ABLS Debian packages (bookworm)
 SignWith: $GPG_KEY_ID
+Limit: 1
 
 Origin: ABLS
 Label: ABLS Debian Repository
@@ -61,6 +62,7 @@ Architectures: $ARCHES
 Components: main
 Description: ABLS Debian packages (trixie)
 SignWith: $GPG_KEY_ID
+Limit: 1
 EOF
 fi
 
