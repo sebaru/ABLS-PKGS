@@ -9,7 +9,7 @@
     },
     {
       "name": "abls-agent-dls",
-      "version": "0.20",
+      "version": "0.21",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
@@ -128,14 +128,14 @@
     },
     {
       "name": "abls-agent-dls",
-      "version": "0.20-1",
+      "version": "0.21-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-dls-debuginfo",
-      "version": "0.20-1",
+      "version": "0.21-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
