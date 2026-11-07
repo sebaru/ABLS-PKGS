@@ -65,7 +65,7 @@
     },
     {
       "name": "abls-agent-server",
-      "version": "0.23",
+      "version": "0.24",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
@@ -233,14 +233,14 @@
     },
     {
       "name": "abls-agent-server",
-      "version": "0.23-1",
+      "version": "0.24-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-server-debuginfo",
-      "version": "0.23-1",
+      "version": "0.24-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
