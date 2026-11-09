@@ -30,14 +30,14 @@
     },
     {
       "name": "abls-agent-libs",
-      "version": "0.34",
+      "version": "0.35",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
     },
     {
       "name": "abls-agent-libs-dev",
-      "version": "0.34",
+      "version": "0.35",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
@@ -170,21 +170,21 @@
     },
     {
       "name": "abls-agent-libs",
-      "version": "0.34-1",
+      "version": "0.35-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-libs-debuginfo",
-      "version": "0.34-1",
+      "version": "0.35-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-libs-devel",
-      "version": "0.34-1",
+      "version": "0.35-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
