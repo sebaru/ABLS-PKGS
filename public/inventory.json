@@ -100,14 +100,14 @@
     },
     {
       "name": "abls-libs",
-      "version": "0.40",
+      "version": "0.41",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
     },
     {
       "name": "abls-libs-dev",
-      "version": "0.40",
+      "version": "0.41",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
@@ -303,21 +303,21 @@
     },
     {
       "name": "abls-libs",
-      "version": "0.40-1",
+      "version": "0.41-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-libs-debuginfo",
-      "version": "0.40-1",
+      "version": "0.41-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-libs-devel",
-      "version": "0.40-1",
+      "version": "0.41-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""

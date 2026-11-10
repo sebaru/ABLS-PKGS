@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Mon, 09 Nov 2026 17:52:39 UTC
+Date: Tue, 10 Nov 2026 14:21:14 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmryCGcACgkQEmcf24cC
-XRsvxg//e07/EgEnMBV25MHTsmV7AYAQDxBm/EIv5i7wJ1AQ+imiPgOE4msV4wqs
-9UJTcBZ5WyRTDb5cAjnPNK/siPSrlwRvzljaaPFMa3rVCuXnR8hQYR64NQP6NfSF
-2mRmwo+e0Cdr48JYBlvmXOb2YBzTi8H677kO1OVzMipKzvgxLaPmXnwCNAocXhHv
-Go82ZNcB+TLV1KBwryIpEOiOYmcztDTxhrX+MDVJzhMRckUniRVcMZUvxmWadYzH
-DqODJxRnkd9STddFdfyhc7rYMiB/wy08/VuWTDWu6IFsxcXTc3PgMq0Hjmoqqqti
-3J7+gyCw43Bt+z+/nD5Ea4cJvEQRAMkLquPF3oUwUITawgt1Ngnv7sY6QmhadvB7
-AVzpgD/vKa2kwn4xDWzWey9F+yiOSvmuQL/fH1ixnY4pjJcxUDcgPoVVFp/fLGpO
-gKoiJnJVgVqhEfOstp0jpuIvhDpSZeIz/71DuCw0fEiQZA4nykpXaIw9axA6a1Sc
-8PhxJU5J9kpiWtpmBwbXxYbNKAwtZ1queO44WfxVqBlx2Cbgi8Q8DxVyNULn9nLW
-PbVsYb6yA2lUFAWv0tTNJE+5DoOyGbXIBkzZAFOH78h5eMI9ruqAmi8+ih/ZQSsY
-QFcYN28sfcKLoD4Ulo++8vITg84gOM0d6/4c16UDnhl5KIzo3Hg=
-=eHD1
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrzKFoACgkQEmcf24cC
+XRs4Xw//c9V8gQeGX4rdDeQvDd52H6MWlysiBBEeaiVnQB41VF3VQ6LU3SoxgoxX
+xdcWM8/m+xJMWDSX+PCJ5l3eZT0F3lO4riRz7WM10/rSgIwUEeSlCL07Jj1lzw9m
+Sdx/xG9zJLkDz+JESRhe+n656KWOvOEazBzsKdl6nSoYZC6t8kW9PWtcLWzbUUa0
+nPrJTRlvorc3xSo+6zJXFsb1c6j4SQk5t3oQ0OJ0cvTelgczTKGOBpvUeDdHl+PS
+NpZ7vTSJtUX1DYrmisPZ8eY8uDubpLZQDoGXIR1MvU1tXui6eAM2EM/0kjf/Yu2K
+b+XoCkPsTsZ4E0KnOxcLMILlmoCovEPt9e8xWUnxJi63mgZ/m2UUB8JQm/oDaNrs
+rds1Jjzw5RxRLhe+CR7LouKgYctWMgRO8WAs1VXDGSy+nvPlo/MbAtHh+b7/kSz+
+w4wvAytPap4PgjzxVhGr45kxjt1iL8Eb8yKQ5UydZXLZFdjtnOmQy7P/HP3ZHPkV
+3D+nl0PnVBzLo7kgTBLBiySjml5kLy2eFys7igpu1hxGDXIDHXtkmK5pTwJc9dhd
+ESj6tKIP/AMewpKPZOHNDv5V4vuYZ7mAZ0BlFBGGb/MTgl4FzejqO+E9bSHhaBdi
+PkFI1tFfdANSiBIiSDRrllKrA7Vgeppe0g7O89bTAObl6jNTOtU=
+=RgXJ
 -----END PGP SIGNATURE-----
