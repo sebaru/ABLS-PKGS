@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Tue, 10 Nov 2026 14:21:14 UTC
+Date: Tue, 10 Nov 2026 19:58:39 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrzKFoACgkQEmcf24cC
-XRs4Xw//c9V8gQeGX4rdDeQvDd52H6MWlysiBBEeaiVnQB41VF3VQ6LU3SoxgoxX
-xdcWM8/m+xJMWDSX+PCJ5l3eZT0F3lO4riRz7WM10/rSgIwUEeSlCL07Jj1lzw9m
-Sdx/xG9zJLkDz+JESRhe+n656KWOvOEazBzsKdl6nSoYZC6t8kW9PWtcLWzbUUa0
-nPrJTRlvorc3xSo+6zJXFsb1c6j4SQk5t3oQ0OJ0cvTelgczTKGOBpvUeDdHl+PS
-NpZ7vTSJtUX1DYrmisPZ8eY8uDubpLZQDoGXIR1MvU1tXui6eAM2EM/0kjf/Yu2K
-b+XoCkPsTsZ4E0KnOxcLMILlmoCovEPt9e8xWUnxJi63mgZ/m2UUB8JQm/oDaNrs
-rds1Jjzw5RxRLhe+CR7LouKgYctWMgRO8WAs1VXDGSy+nvPlo/MbAtHh+b7/kSz+
-w4wvAytPap4PgjzxVhGr45kxjt1iL8Eb8yKQ5UydZXLZFdjtnOmQy7P/HP3ZHPkV
-3D+nl0PnVBzLo7kgTBLBiySjml5kLy2eFys7igpu1hxGDXIDHXtkmK5pTwJc9dhd
-ESj6tKIP/AMewpKPZOHNDv5V4vuYZ7mAZ0BlFBGGb/MTgl4FzejqO+E9bSHhaBdi
-PkFI1tFfdANSiBIiSDRrllKrA7Vgeppe0g7O89bTAObl6jNTOtU=
-=RgXJ
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrzd28ACgkQEmcf24cC
+XRtTYw/9FcQdgTY/0gHXH5ZYEOdtmHufqIwMB3PL/dThsUQEm3gs34r5wzVmq0Mq
+woQM54Tl9iMfJSy+mIBxv7VnuSQXt2p7cKM2HydZIcQUdj8TPOmKX5OFiTpyFCrR
+b2EvDdAARoLI2/yS7EHTq4Mpqg9lDnGb2UyW5NoWFnzPw1joih8QSvfaXl3sda7y
+p4CAdXnjWojtKfyrMtQOToK1rcOK16Y7dZImmcMjIl2iUl6J5Wnev1CIxuEKhCX4
+RB7IspYRaLTUE8RlBk4D3UNIeisXXrtI7b6PEtacd8zuGxoxtfRFkIs8ZWjF5vTB
+Inrkz1rcOmoPOyedEi5p8YcaZP1BadHttXNlffbGif1EoMJ3UHBKFozlWd5mg7OR
+RGrabKNlDXD6zdIMpDMiO6jSDm+QWUXvxFuK/7LNOe8xolQpC7JYlYoarUo7cedp
+TjV4Ew2fBiD6imKVqp8NBm3PO9tdMnYb1uG/ntQoplPePrMhbLNsW/im3bEIPRPp
+exBkzLJuycatxjZr2TYv2v+yUehH8+Ygs2iSgXX3rMIiVAgGUcWSnLGTE1VLa8C2
+OrShNfO3zVFNwpgpM1UDL+HcyD9H/O9QEdF39kmqzmckE3Hlg1HunQV8EmWlcFr9
+46M0+E482n5z/rVGsI/ZTVHEYGUGQl3VVKry7I8e3gRYSz4E08U=
+=xFcN
 -----END PGP SIGNATURE-----
