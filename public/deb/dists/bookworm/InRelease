@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Tue, 10 Nov 2026 19:58:39 UTC
+Date: Thu, 12 Nov 2026 10:29:28 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmrzd28ACgkQEmcf24cC
-XRtTYw/9FcQdgTY/0gHXH5ZYEOdtmHufqIwMB3PL/dThsUQEm3gs34r5wzVmq0Mq
-woQM54Tl9iMfJSy+mIBxv7VnuSQXt2p7cKM2HydZIcQUdj8TPOmKX5OFiTpyFCrR
-b2EvDdAARoLI2/yS7EHTq4Mpqg9lDnGb2UyW5NoWFnzPw1joih8QSvfaXl3sda7y
-p4CAdXnjWojtKfyrMtQOToK1rcOK16Y7dZImmcMjIl2iUl6J5Wnev1CIxuEKhCX4
-RB7IspYRaLTUE8RlBk4D3UNIeisXXrtI7b6PEtacd8zuGxoxtfRFkIs8ZWjF5vTB
-Inrkz1rcOmoPOyedEi5p8YcaZP1BadHttXNlffbGif1EoMJ3UHBKFozlWd5mg7OR
-RGrabKNlDXD6zdIMpDMiO6jSDm+QWUXvxFuK/7LNOe8xolQpC7JYlYoarUo7cedp
-TjV4Ew2fBiD6imKVqp8NBm3PO9tdMnYb1uG/ntQoplPePrMhbLNsW/im3bEIPRPp
-exBkzLJuycatxjZr2TYv2v+yUehH8+Ygs2iSgXX3rMIiVAgGUcWSnLGTE1VLa8C2
-OrShNfO3zVFNwpgpM1UDL+HcyD9H/O9QEdF39kmqzmckE3Hlg1HunQV8EmWlcFr9
-46M0+E482n5z/rVGsI/ZTVHEYGUGQl3VVKry7I8e3gRYSz4E08U=
-=xFcN
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmr1lQgACgkQEmcf24cC
+XRsfKBAAowgDb9APWBRiUajYBxT0DV74gNqXCI0KFJWbbo06zlm/O+uk5qIpF3OX
+SLJWdl2XpQsKkNMW3Qgmcs+eZqgC4Mcc6NUp8t0MXwZTbjSgYQGZWQfH7+hlK0q3
+UAkq34hRsrVjYlBuBinf5NtsWlbRu0OjygCma5dqp7rn3q2Dc//1IWBFxQo/53KL
+5sSUP5bjG9FKAQTqTZLowdYxv0xFZJd+5pZcQvAtHuEtLFf5sXfkRGpesNHIXS+p
+6rZeaJiv1CcPWWLuEN7MMcJUvy3x02fcvj6WkPiWd9WGewsI9ddat2O4cQhSrH76
+Ww2Nvu741Aaf7s442irRKEt76l0KkGca/wwJ7Eq4Ic0xLF3CAt1P6mLA+GOk/QwS
+jLQCW9pHshc/FFZNaXuz+RIBmGqu3+UbWOlkCYZIR0INIWRwuHU8raFhMrMSszgt
+isz6zUSVZPzmLrHxvB2ATo4djfBMIs8x9853G3o5ZnHYTE19x9X57/NtNGs8lxvq
+4/eE6UJmUrLmrmxJchzcZPZznbWDQTsY2tbUy7ZFKryeuA4q1U+gTY+T9Ie3oy+a
+J9LsbU/+CulsaaMaDK3snTqLkNBQNEWBVGyZDpRKwcG2b9br9Rbf9pjsYlKi3rl4
+ev2Lw+p1RrrGfdd30jSgRosQUXSjZl2+YtD7iRY9QOC+zU8cmqA=
+=/Wfv
 -----END PGP SIGNATURE-----

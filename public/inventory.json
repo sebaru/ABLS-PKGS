@@ -9,7 +9,7 @@
     },
     {
       "name": "abls-agent-dls",
-      "version": "0.21",
+      "version": "0.22",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
@@ -128,14 +128,14 @@
     },
     {
       "name": "abls-agent-dls",
-      "version": "0.21-1",
+      "version": "0.22-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-dls-debuginfo",
-      "version": "0.21-1",
+      "version": "0.22-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
@@ -170,21 +170,21 @@
     },
     {
       "name": "abls-agent-libs",
-      "version": "0.36-1",
+      "version": "0.35-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-libs-debuginfo",
-      "version": "0.36-1",
+      "version": "0.35-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-libs-devel",
-      "version": "0.36-1",
+      "version": "0.35-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
