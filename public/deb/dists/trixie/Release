@@ -2,7 +2,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: trixie
 Codename: trixie
-Date: Thu, 12 Nov 2026 10:29:28 UTC
+Date: Sat, 14 Nov 2026 10:06:45 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (trixie)
@@ -13,8 +13,8 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  6c675d96457deae33a09a7c52fe6b724 138 main/binary-arm64/Release
- 97398c84e9843e1245ab7177ea1efbe1 12684 main/binary-armhf/Packages
- 01c8e0f2d336679190fc3f946d7512a0 3691 main/binary-armhf/Packages.gz
+ 20e82fefa809c807951cdab8a4e40a64 12684 main/binary-armhf/Packages
+ 2e6e737460f07e9afe5366afa04dc131 3692 main/binary-armhf/Packages.gz
  e6a83cf8668da13848fa85a04cee7b28 138 main/binary-armhf/Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
@@ -23,8 +23,8 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  9088c60f3b3fe964109fc32fbf97b70b80e47294 138 main/binary-arm64/Release
- 2c7f732a74834594efc2f3703ad8b9d3bd7a963c 12684 main/binary-armhf/Packages
- f8a949de787c78656b02587f19749d7b67cdb33a 3691 main/binary-armhf/Packages.gz
+ 7ab4041714ded96c5aeb4753af54785f9d0847df 12684 main/binary-armhf/Packages
+ 311804148dede418455e37b307f0743a9dfe50cd 3692 main/binary-armhf/Packages.gz
  687f3bbd49b1deebc252287c7a741c97191be356 138 main/binary-armhf/Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
@@ -33,8 +33,8 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
  c6805a8b5eb131da3a71503bd014df57944fece8a2bf63f25daf17d090836002 138 main/binary-arm64/Release
- 9bfe0ec53c6810233b7415452d4894eb15c706003c13159a164506aa31cabdf3 12684 main/binary-armhf/Packages
- f1466361667333431bf2c4b4b79f6ea4e98bfec18061d25cacc79150b78bcd4f 3691 main/binary-armhf/Packages.gz
+ 1cfe2619f8d61d3f3c415fb951937fdb72286769d14440ae6dec886c6aff9571 12684 main/binary-armhf/Packages
+ dd11faf2847e4eb872aab823949563fd78216287517b69a0e91c2b8ddd231bd6 3692 main/binary-armhf/Packages.gz
  cb7baf96fda71f9cabd56196efc10c9a26da419e1bf089013245a2b90fbc9dce 138 main/binary-armhf/Release
 SHA512:
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e 0 main/binary-amd64/Packages
@@ -43,6 +43,6 @@ SHA512:
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e 0 main/binary-arm64/Packages
  7e8e93f4a89ce7fae011403e14a1d53544c6e6f6b6010d61129dc27937806d2b03802610d7999eab33a4c36b0f9e001d9d76001b8354087634c1aa9c740c536f 20 main/binary-arm64/Packages.gz
  ef400e9b365e4cc99633b3ecacb2c66e7d8d6c93f9f5995b54bbd047568ba4a51f9f25050966f27252b9fedb542364094dba36f6cd5f4c3b37c19cf7d8b5fa4d 138 main/binary-arm64/Release
- 04a89633b10ac7d8ee578f0ce93aac292f6af3426255b2d6e11d7a2802224376be7f7999e21fe561994f26b4c368260691c859336daafe1952a37c4156a57bce 12684 main/binary-armhf/Packages
- 63886263d20c9298f8f51ebaa2a5c9f04af148efc5ee55240260b3546128c43d63523b8a9d0cc0d457152fb408e98f35f55c9f42f958d0a387297cc9c2d935e0 3691 main/binary-armhf/Packages.gz
+ cff5d0e8334d8350f9f343a43ed4e6f72e67896f61ccb5fa86b2a8b42fd547bc305bfded245909711fab7b7bab6fe530e9df2dac12e1c711925c76db80abadce 12684 main/binary-armhf/Packages
+ 47dad40cfd246aae968b145e93c9d4dd20f6b023994f2c158605aa7843c41d807f5382e7e920b5570cc635e39fd457b6c6ac99d4bb594d67b11fd5308eb744c7 3692 main/binary-armhf/Packages.gz
  7f0aa3cf74497e3d58e428c451b0cdc21939a969ab2b1e376a2e9fb144ae655aecbf113cc3e399ebd40b1d5d5ebde5a23f7e2fc175fa763f08701834fe933f2b 138 main/binary-armhf/Release

@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Thu, 12 Nov 2026 10:29:28 UTC
+Date: Sat, 14 Nov 2026 10:06:44 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmr1lQgACgkQEmcf24cC
-XRsfKBAAowgDb9APWBRiUajYBxT0DV74gNqXCI0KFJWbbo06zlm/O+uk5qIpF3OX
-SLJWdl2XpQsKkNMW3Qgmcs+eZqgC4Mcc6NUp8t0MXwZTbjSgYQGZWQfH7+hlK0q3
-UAkq34hRsrVjYlBuBinf5NtsWlbRu0OjygCma5dqp7rn3q2Dc//1IWBFxQo/53KL
-5sSUP5bjG9FKAQTqTZLowdYxv0xFZJd+5pZcQvAtHuEtLFf5sXfkRGpesNHIXS+p
-6rZeaJiv1CcPWWLuEN7MMcJUvy3x02fcvj6WkPiWd9WGewsI9ddat2O4cQhSrH76
-Ww2Nvu741Aaf7s442irRKEt76l0KkGca/wwJ7Eq4Ic0xLF3CAt1P6mLA+GOk/QwS
-jLQCW9pHshc/FFZNaXuz+RIBmGqu3+UbWOlkCYZIR0INIWRwuHU8raFhMrMSszgt
-isz6zUSVZPzmLrHxvB2ATo4djfBMIs8x9853G3o5ZnHYTE19x9X57/NtNGs8lxvq
-4/eE6UJmUrLmrmxJchzcZPZznbWDQTsY2tbUy7ZFKryeuA4q1U+gTY+T9Ie3oy+a
-J9LsbU/+CulsaaMaDK3snTqLkNBQNEWBVGyZDpRKwcG2b9br9Rbf9pjsYlKi3rl4
-ev2Lw+p1RrrGfdd30jSgRosQUXSjZl2+YtD7iRY9QOC+zU8cmqA=
-=/Wfv
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmr4MrUACgkQEmcf24cC
+XRsuTQ/9EFnAtcSnPYL+1lFR4Q9n2mW+Wmz9hofGIIBl3Y7asIb8iyhmCiJGhbOZ
+woohA7otA5TYEB2+4QJbe09PPzMCU8Q5GHSRG/rF51JqsGQZePm+9E8aDS4Q2bA+
+kXiPgf+gSLVVUhp5g1lCl9EZ+xsun1QashPw6VDZXy5lsdAbRnO4JSXLwsGQn7zO
+akE+qoY/L1oZ81aOjqlWS3ozhkqU4urC42jWryHJwq62ziHk7cEfVDJkUIyvVifr
+ccEd/I2jvtSMWNm5jqplhkq2WApV7Z9g5UmEBp8w9zCQquR5NWFPEVeGjgTLlTsv
+9mLDN86tG8HoTdwnFIzwlA9B5k/EdE1yEkqFfc4M3YJhP6A/mMOlDK0vAcK25vwm
+d3iiNjSxROV8re0CBZZCCs6zzkyNF4tmtLAvtff1JGMH3iSdlkh2Y7Ixm0aUeXaq
+r0KE9i/Kcy6/AlI3G2EFkLtZ41jKxPchbAj/a0y6SotycRAyFJdK0N7O5F7vubMo
+O9B5kVrqGLkJINgY27t6DSJKHalOYhkcGHyIKjZcZGuNiC6VRtEz57ZfIvSdyKyR
+nh8nlzlcuEjrDRzq+CiRF47NBUHiFe5Kdszw/woFdwQ5XsVu8PteP/S4xw97BikF
+fDrbVdfCWqIGzGcwRzPaoGtwXEquQd3aprAMmzZ+V1BauJb2ezE=
+=ltFf
 -----END PGP SIGNATURE-----

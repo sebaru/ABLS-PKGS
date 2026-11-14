@@ -2,7 +2,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Thu, 12 Nov 2026 10:29:28 UTC
+Date: Sat, 14 Nov 2026 10:06:44 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
