@@ -58,7 +58,7 @@
     },
     {
       "name": "abls-agent-phidget",
-      "version": "0.9",
+      "version": "0.10",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
@@ -86,7 +86,7 @@
     },
     {
       "name": "abls-agent-teleinfoedf",
-      "version": "0.4",
+      "version": "0.5",
       "format": "deb",
       "architecture": "armhf",
       "distribution": "trixie"
@@ -156,14 +156,14 @@
     },
     {
       "name": "abls-agent-imsg",
-      "version": "0.4-1",
+      "version": "0.5-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-imsg-debuginfo",
-      "version": "0.4-1",
+      "version": "0.5-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
@@ -219,14 +219,14 @@
     },
     {
       "name": "abls-agent-phidget",
-      "version": "0.9-1",
+      "version": "0.10-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-phidget-debuginfo",
-      "version": "0.9-1",
+      "version": "0.10-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
@@ -275,14 +275,14 @@
     },
     {
       "name": "abls-agent-teleinfoedf",
-      "version": "0.4-1",
+      "version": "0.5-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""
     },
     {
       "name": "abls-agent-teleinfoedf-debuginfo",
-      "version": "0.4-1",
+      "version": "0.5-1",
       "format": "rpm",
       "architecture": "x86_64",
       "distribution": ""

@@ -139,16 +139,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, libphidget22, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.28.0), libphidget22
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-phidget/abls-agent-phidget_0.9_armhf.deb
-Size: 21162
-SHA512: 8d5232f239b179e50d0881e5096217e7432f41ace7a807392d0693b82618f8ed86782b3f38ec2fa219c6db642257022712673f22e694ef766dc4c4004ae616f2
-SHA256: 5163b1a9f73b20059f95de71e8065d6afc64845fb7b6ca3968e996571b2c6361
-SHA1: a42b1c1ffb7ce75e6a77069a0cc27fecf7afa812
-MD5sum: e25da2b1db159bc4025059e4fa8f8c74
+Filename: pool/main/a/abls-agent-phidget/abls-agent-phidget_0.10_armhf.deb
+Size: 21148
+SHA512: 6ca3f1de47f27154558865fd9194c34e11f01799c34b9e7c5b34912e50dde100f59b943804d2784747b942c5b5df9a831b41de86feae1f9dc22f159b745eddf2
+SHA256: 3d6e94f2bbe8ce069f252d09fe3fb5d7fa10aade4ddf3ab3375ae216428d4012
+SHA1: 793aa78a46b77a527343090557a887e1ebd9619f
+MD5sum: b474f65b3d82c92bfb0731f687d17599
 Description: Abls Habitat Phidget runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.9
+Version: 0.10
 Installed-Size: 116
 
 Package: abls-agent-server
@@ -207,16 +207,16 @@ Architecture: armhf
 Depends: libglib2.0-0t64 | libglib2.0-0, libjson-glib-1.0-0, abls-libs, abls-agent-libs, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0)
 Priority: optional
 Section: devel
-Filename: pool/main/a/abls-agent-teleinfoedf/abls-agent-teleinfoedf_0.4_armhf.deb
-Size: 20774
-SHA512: 548c4f9a91a996ee9f26daf9ecaf9e461bf1795ebddaf54f9c1cd79e8a0517a48e5c90e175df0595361a293a609d4e5346c03b7526d91a192e00695718ab3af6
-SHA256: 9b2386dd428e0a44bd90bc10911fef9c30cba2b5f3d6df70538ae1e3d6c6d173
-SHA1: ca1c99934783b5b9d8d62f5f770ef29d6cd21cdd
-MD5sum: 84f10216664ace449b203772b29125f4
+Filename: pool/main/a/abls-agent-teleinfoedf/abls-agent-teleinfoedf_0.5_armhf.deb
+Size: 20752
+SHA512: ce1bb18c747073db877d60c3f1681649b7b42aee222df20aad50b9f51e07888c6b5508ecf9ef35c631ff6c0a82ac7cb42008602d1acb9189597e2426beba7a8e
+SHA256: fadcc9f5456e9dd6b739dd8eb587f75776952aad66e29f0797275b8a0d4eed89
+SHA1: 3a8404a72f39deaef33899bf89f1d3880a006684
+MD5sum: 70a08f912287a86c5e7dddd2d6c9085b
 Description: Abls Habitat TeleinfoEDF runtime
 Homepage: https://docs.abls-habitat.fr
 Maintainer: sebastien.lefevre@abls-habitat.fr
-Version: 0.4
+Version: 0.5
 Installed-Size: 109
 
 Package: abls-agent-ups
