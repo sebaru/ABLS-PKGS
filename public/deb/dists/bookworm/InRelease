@@ -5,7 +5,7 @@ Origin: ABLS
 Label: ABLS Debian Repository
 Suite: bookworm
 Codename: bookworm
-Date: Sat, 14 Nov 2026 20:49:08 UTC
+Date: Sun, 15 Nov 2026 18:02:04 UTC
 Architectures: amd64 arm64 armhf
 Components: main
 Description: ABLS Debian packages (bookworm)
@@ -51,17 +51,17 @@ SHA512:
  11f3d5f8adedb2500678693f49c97ff347f71a6957bf57a10d7a7073bfd542f8be0dfecac53eb0e768a0e484ad7c6b0c18a9c56155fe38f0dac3bed97b190ed0 142 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmr4yUQACgkQEmcf24cC
-XRu/nw//VHpHtizRJLk30h0Ru7SFTqhVbbpJiJDwM3svFsI/2OKMfxuBCyhbNEmr
-M64NBHiBsKnBx/0FIv1JU+N3+FRxgAB/txiuyEKyaBJaIZ6WxCWXy1w41Qlx9C37
-iZwzxs7BfY+YEYbV1VMKfjdu7kzkbUTAHXRaoDBqwEJ8dV8Jrviv5PUuWrNbEq+j
-NN4qy35bu6z+Y+kk7wSI8GRXDrwp26eWo/XWg/3J4vFDmPGRbjbJIxMm5pGfhc1+
-K53HJbLYHhRSFgAVJI0ogmonUaLTHR33bBMneNlP1UvmO+lXnPqatwRkIAUMp7bE
-QEpgvgVImI74Jzluwp1p0h2qGdT5iI8p+wcqBeOadZJI9HMpSs8Cn+IeohrwgXTC
-bKr/liUs5rKeb+1Ytx9c3cNvZYsLMGX5F5mXOTzYOhFODhyRaOdH/AoqR5MVQepH
-A9A2xk2xLd7mpIB7q3IXYAU0FW1R8XmHCYZBUnf0sOHrTwuF/Cawhbs8XypCDwvj
-tghXaAFCsgla9F/z63sFpOyWimFVCJMeWd07kLlqzi4qvny3UxcR0fbhbmIYyq7V
-VQCUB2Q49v4wFcJqMW8pLfAIoeH0fvnyXIn7SkABeWAoBI5qARJxB+Gqp3CRdKqa
-6ShTMXvyNBNolK4hsLESA2Gyhnob0+2OVrBtPwZZQLn3D2GLecs=
-=tIb2
+iQIzBAEBCgAdFiEEbIbywRMFVUphoiIVEmcf24cCXRsFAmr585wACgkQEmcf24cC
+XRuuFg//a6wScyoFa1uNVs+xJMSDSbffgJMJmXF9rciNyuNMo9jVip5L4K1sLp71
+YZ8IK/DkQCOqyJSnYyKkQD1f81ssLzdKDg/p9pFKFimKGce79Uke4WJ8fD7Bc9o5
+Op0QkInTnxGOKr631BgrT+Dy4FsFLN5JfdEv0FEKXYVutNVWr1syyQtDsnjRc8Q8
+lsOqgylc32d4quxDs/ZCszeMBQ37vUZg9aEikfeEqNO0Rw7+kVUwoh4tUoo/9+qd
+8MbAeEsKBrFmQZuNm2uq7ZIWmKkCilEiD29MsHgBwfep704Hb4tCwREtMcZp7lFf
+XIH1Du+2sulAQmJcFgcyqJRGvtbg/DXHW1Swul6jMTyg5p5ttWdxg5sz77tANHm+
+D3BUloDL8QoCUtI+SWrJHJSXsOWUN9U8uKHGhBBtQ0r+9igz8rZddHborRQx9w3u
+U8mm1Bsdt4RDxsDeWOyVh3MYlG8A7ztjqdH9LqRaK0zMbiZeilHMNA47HMqwsLo+
+zFwJg05Bug5lHrzwYEyvh0l8ekVzL21NNprVSOuJjaBGDxe73V22xN3mfFBtywXX
++RGtbDYuWof9n8JN0pe1yZX9JQ8a/NesTtJK2KEwBJ8rOnuAd8PBsCIR3+/BtSwJ
+ZHN22SoBjnsfogubph3HTeG1i6wLYHCg0mB9ucC4fWWJAJOOAoM=
+=Jyv7
 -----END PGP SIGNATURE-----
